@@ -27,10 +27,10 @@
             <p class="font-weight-bold">Phone No:</p> <input type="text" size="30">
             </div>
             <div class="mt-3">
-						<p class="font-weight-bold">Comment:</p>
-						<textarea rows="5" cols="50"></textarea><br>
-						<input type="Submit" class= "my-2 btn btn-dangers float-right">
-					</div>
+              <p class="font-weight-bold">Comment:</p>
+              <textarea rows="5" cols="50"></textarea><br>
+              <input type="Submit" class= "my-2 btn btn-dangers float-right">
+					  </div>
           </div>
         </div>  
       </div>
