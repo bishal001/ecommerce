@@ -182,7 +182,6 @@ border: none;
   }
   </script>
 
-<!-- javascript code to load image when button pressed --
 <script>
     function change(){
         imageNode = document.getElementById('img-1');
