@@ -16,7 +16,7 @@
 	<body>
 		<div class="container">
 			<!--creating navigation bar-->
-			<nav class="navbar navbar-expand-xl navbar-dark sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 				<div class="container">
 				<!--creating toggler button in nav bar-->
 					<button class="navbar-toggler" data-toggle="collapse" data-target="#respid">
