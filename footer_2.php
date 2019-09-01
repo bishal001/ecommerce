@@ -122,44 +122,25 @@
 				<p class="font-weight-bold footerLink mb-2">Follow us:</p>
 			</div>
 			<div>
-				<a href="#">
-					<button class="btn " type="button" style="color:white">
-						<i class="fa fa-facebook-square fa-lg"></i>
-					  </button>
-				</a>
+				<a href="https://www.facebook.com" target="_blank" style="color:white" class="fa fa-facebook-square mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="#">
-					<button class="btn " type="button" style="color:white">
-						<i class="fa fa-instagram fa-lg"></i>
-					  </button>
-				</a>
+				<a href="https://www.instagram.com" target="_blank" style="color:white" class="fa fa-instagram mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="#">
-					<button class="btn " type="button" style="color:white">
-						<i class="fa fa-skype fa-lg"></i>
-					  </button>
-				</a>
+				<a href="https://www.skype.com" target="_blank" style="color:white" class="fa fa-skype mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="#">
-					<button class="btn " type="button" style="color:white">
-						<i class="fa fa-linkedin-square fa-lg"></i>
-					  </button>
-				</a>
+				<a href="https://www.linkedin.com" target="_blank" style="color:white" class="fa fa-linkedin-square mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="#">
-					<button class="btn " type="button" style="color:white">
-						<i class="fa fa-google-plus fa-lg"></i>
-					  </button>
-				</a>
+				<a href="https://www.gmail.com" target="_blank" style="color:white" class="fa fa-google-plus mt-1 fa-lg"></a>
 			</div>
+			
 		</div>
 	</div>
 	
-	<div class="row justify-content-center">
+	<div class="row justify-content-center mt-2">
 		 <!--Adding company address, email, contact no-->
 		<div class="d-flex flex-row pb-3 justify-content-center align-items-center">
 		  <div>
