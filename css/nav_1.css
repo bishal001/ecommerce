@@ -1,0 +1,65 @@
+.navbar{
+	background-color:#0db04b !important;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:10px;
+	position: relative;
+}
+
+.nav-link{
+	color:white !important;
+	font-size:18;
+	white-space: nowrap;
+}
+
+.link{
+	
+	font-size:20;
+}
+
+a:hover{
+	color:gold !important;
+}
+
+a{
+	color:#7b2424;
+}
+
+.nav-link.active{
+	color:rgb(78, 94, 24) !important;
+}
+
+.checked {
+	color:#1a8a64;
+}
+
+.btn-dangers{
+	background-color: #1a8a64 !important;
+	color:white !important;
+}
+	
+.img{
+	position:relative;
+	display:inline-block;
+}
+
+.img .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:opacity 500ms ease-in-out;
+}
+
+.img:hover .overlay{
+	opacity:1;
+}
+
+.overlay span{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
