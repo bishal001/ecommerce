@@ -55,7 +55,7 @@ border: none;
 <body>
   <div class="container">
     <div class="text-center mb-3">
-      <button class="btn btn-dangers" onclick="change()">Load images</button>
+      <button class="btn btn-primary" onclick="change()">Load images</button>
     </div>
     <div class="row">
       <div class="col-xl-4">
