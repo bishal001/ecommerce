@@ -14,5 +14,7 @@
       <a href="_home.php"><button class="btn btn-dangers">Go Shopping</button></a>
     </div>
   </div>
+  <hr>
+  <?php include'footer_2.php'?>
 </body>
 </html>
