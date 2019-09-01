@@ -21,7 +21,7 @@
 
 <body>
   <!--started the main container-->
-  <div class="container d-none d-md-block" style="background-color:#1e2f25;">
+  <div class="container d-none d-md-block" style="background-color:#1a8a64;">
 
 	 <!--created the row for the company name-->
     <div class="row justify-content-center pt-3 pb-3">
@@ -158,7 +158,7 @@
 	</div>
 		<!--creating the card to keep privacy policy part-->
 
-	<div class="row mb-2 justify-content-center" style="background-color:white">
+	<div class="row mb-2 justify-content-center" style="background-color:#b2ffa4">
 			<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 mt-1">
 				<p class="font-weight-bold fa fa-copyright">Copyright 2019</p>
 			</div>
