@@ -173,7 +173,7 @@
 
   </div>
   <hr>
-  <?php include'footer.php'?>
+  <?php include'footer_2.php'?>
   <script>
   var i = 0;
 

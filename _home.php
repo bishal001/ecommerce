@@ -767,7 +767,7 @@
     </div>
   </div>
   <hr>
-  <?php include'footer.php'?>
+  <?php include'footer_2.php'?>
   <!--calling the javascript files of the owl carousel-->
   <script src="jquery/jquery.min.js"></script>
   <script src="javascript/owl.carousel.min.js"></script>

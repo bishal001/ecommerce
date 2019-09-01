@@ -39,7 +39,7 @@
     </div>  
   </div>
   <hr>
-  <?php include'footer.php'?>
+  <?php include'footer_2.php'?>
   
 </body>
 
