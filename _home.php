@@ -773,6 +773,7 @@
   <!--writing the functions of the owl-->
   <script src="javascript/owl_carousel_js.js"></script>
 
+<!-- javascript code to load image when button pressed -->
   <script>
     function change(){
       for(i=1; i<21; i++){
