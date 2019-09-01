@@ -88,7 +88,7 @@
 
     <!--creating the card to keep privacy policy part-->
 
-      <div class="row mb-2 justify-content-center">
+      <div class="row mb-2 justify-content-center" style="background-color:white">
 				<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 mt-1">
 					<p class="font-weight-bold fa fa-copyright ">Copyright 2019</p>
 				</div>
