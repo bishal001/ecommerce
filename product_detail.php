@@ -168,7 +168,7 @@ border: none;
 
   </div>
   <hr>
-  <?php include'footer.php'?>
+  <?php include'footer_2.php'?>
   <!-- javascript code to increase or decrease the value for the quantity -->
   <script>
   var i = 0;
