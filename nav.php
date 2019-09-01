@@ -58,6 +58,9 @@
             <div>
             <a href="cart.php"><i class="fa fa-shopping-cart fa-lg ml-2" style="color:white"></i></a>
             </div>
+						<div>
+            <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2" style="color:white"></i></a>
+            </div>
 					</div>
 				</div>
       </nav>
