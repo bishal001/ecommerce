@@ -110,8 +110,10 @@ border: none;
       </div>
     </div>
 
+    <!-- creating the tab bar -->
     <div class="row mt-3">
       <div class="col-xs-12 ">
+        <!-- tab bar headings -->
         <nav>
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
             <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
@@ -124,6 +126,7 @@ border: none;
               aria-controls="nav-about" aria-selected="false">About</a>
           </div>
         </nav>
+        <!-- tab bar body section -->
         <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam.
@@ -141,6 +144,7 @@ border: none;
             mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim
             ullamco ad duis occaecat ex.
           </div>
+      
           <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam.
             Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure
@@ -165,6 +169,7 @@ border: none;
   </div>
   <hr>
   <?php include'footer.php'?>
+  <!-- javascript code to increase or decrease the value for the quantity -->
   <script>
   var i = 0;
 
@@ -177,6 +182,7 @@ border: none;
   }
   </script>
 
+<!-- javascript code to load image when button pressed --
 <script>
     function change(){
         imageNode = document.getElementById('img-1');
