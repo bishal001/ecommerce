@@ -94,7 +94,7 @@
               <!--creating the shades in the image-->
               <div class="shadow p-3 mb-2 bg-light">
                 <div class="img">
-                  <a href="cart.php"><img src="http://placehold.it/200x300" id="img-8" clas="img-fluid "></a>
+                  <a href="product_detail.php"><img src="http://placehold.it/200x300" id="img-8" clas="img-fluid "></a>
                   <!--adding icons when hovered-->
                   <div class="overlay">
                     <button class="btn btn-outline-secondary my-2 mx-2" type="button">
