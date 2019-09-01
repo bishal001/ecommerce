@@ -11,7 +11,7 @@
       <img src="images/empty_cart.jpeg" alt="">
     </div>
     <div class="row justify-content-center">
-      <a href="_home.php"><button class="btn btn-dangers">Go Shopping</button></a>
+      <a href="_home.php"><button class="btn btn-dangers font-weight-bold">Go Shopping</button></a>
     </div>
   </div>
   <hr>
