@@ -13,8 +13,8 @@
     <div class="row justify-content-center">
       <a href="_home.php"><button class="btn btn-dangers font-weight-bold">Go Shopping</button></a>
     </div>
-  </div>
   <hr>
+  </div>
   <?php include'footer_2.php'?>
 </body>
 </html>
