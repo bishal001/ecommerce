@@ -117,28 +117,29 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xl-2 col-md-2">
+	
+	</div>
+		<div class="d-flex flex-row justify-content-center mt-2">
 			<div>
-				<p class="font-weight-bold footerLink mb-2">Follow us:</p>
+				<p class="font-weight-bold footerLink">Follow us:</p>
 			</div>
 			<div>
-				<a href="https://www.facebook.com" target="_blank" style="color:white" class="fa fa-facebook-square mt-1 fa-lg"></a>
+				<a href="https://www.facebook.com" target="_blank" style="color:white" class="ml-3 fa fa-facebook-square mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="https://www.instagram.com" target="_blank" style="color:white" class="fa fa-instagram mt-1 fa-lg"></a>
+				<a href="https://www.instagram.com" target="_blank" style="color:white" class="ml-3 fa fa-instagram mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="https://www.skype.com" target="_blank" style="color:white" class="fa fa-skype mt-1 fa-lg"></a>
+				<a href="https://www.skype.com" target="_blank" style="color:white" class="ml-3 fa fa-skype mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="https://www.linkedin.com" target="_blank" style="color:white" class="fa fa-linkedin-square mt-1 fa-lg"></a>
+				<a href="https://www.linkedin.com" target="_blank" style="color:white" class="ml-3 fa fa-linkedin-square mt-1 fa-lg"></a>
 			</div>
 			<div>
-				<a href="https://www.gmail.com" target="_blank" style="color:white" class="fa fa-google-plus mt-1 fa-lg"></a>
+				<a href="https://www.gmail.com" target="_blank" style="color:white" class="ml-3 fa fa-google-plus mt-1 fa-lg"></a>
 			</div>
 			
 		</div>
-	</div>
 	
 	<div class="row justify-content-center mt-2">
 		 <!--Adding company address, email, contact no-->
