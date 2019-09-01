@@ -8,6 +8,7 @@
 
 <body>
   <div class="container">
+  <!-- creating the button to load the images when pressed -->
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
