@@ -112,7 +112,7 @@ border: none;
 
     <!-- creating the tab bar -->
     <div class="row mt-3">
-      <div class="col-xs-12 ">
+      <div class="col ">
         <!-- tab bar headings -->
         <nav>
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
