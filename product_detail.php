@@ -166,6 +166,15 @@ border: none;
       </div>
     </div>
 
+    <div class="card mt-3">
+      <div class="card-header" style="background-color: #1a8a64; color: white">
+        <h4 class="text-start">Related Products</h4>
+      </div>
+    </div>
+    <div class="row">
+      
+    </div>
+
   </div>
   <hr>
   <?php include'footer_2.php'?>
