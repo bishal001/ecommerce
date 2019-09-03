@@ -26,7 +26,8 @@ a{
 }
 
 .nav-link.active{
-	color:rgb(78, 94, 24) !important;
+	color:white !important;
+	background-color: #0db04b;
 }
 
 .checked {
