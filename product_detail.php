@@ -4,51 +4,50 @@
 <head>
   <?php include'nav.php'?>
   <style>
-    nav > .nav.nav-tabs{
+  nav>.nav.nav-tabs {
 
-border: none;
-  color:#fff;
-  background:#1a8a64;
-  border-radius:0;
+    border: none;
+    color: #fff;
+    background: #1a8a64;
+    border-radius: 0;
 
-}
-nav > div a.nav-item.nav-link,
-nav > div a.nav-item.nav-link.active
-{
-border: none;
-  padding: 18px 25px;
-  color:#fff;
-  background:#1a8a64;
-  border-radius:0;
-}
+  }
 
-nav > div a.nav-item.nav-link.active:after
-{
-content: "";
-position: relative;
-bottom: -60px;
-left: -10%;
-border: 15px solid transparent;
-border-top-color: #1a8a64 ;
-}
-.tab-content{
-background: #fdfdfd;
-  line-height: 25px;
-  border: 1px solid #ddd;
-  border-top:5px solid #1a8a64;
-  border-bottom:5px solid #1a8a64;
-  padding:30px 25px;
-}
+  nav>div a.nav-item.nav-link,
+  nav>div a.nav-item.nav-link.active {
+    border: none;
+    padding: 18px 25px;
+    color: #fff;
+    background: #1a8a64;
+    border-radius: 0;
+  }
 
-nav > div a.nav-item.nav-link:hover,
-nav > div a.nav-item.nav-link:focus
-{
-border: none;
-  background: #1a8a64;
-  color:#fff;
-  border-radius:0;
-  transition:background 0.20s linear;
-}
+  nav>div a.nav-item.nav-link.active:after {
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #1a8a64;
+  }
+
+  .tab-content {
+    background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top: 5px solid #1a8a64;
+    border-bottom: 5px solid #1a8a64;
+    padding: 30px 25px;
+  }
+
+  nav>div a.nav-item.nav-link:hover,
+  nav>div a.nav-item.nav-link:focus {
+    border: none;
+    background: #1a8a64;
+    color: #fff;
+    border-radius: 0;
+    transition: background 0.20s linear;
+  }
   </style>
 </head>
 
@@ -144,7 +143,7 @@ border: none;
             mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim
             ullamco ad duis occaecat ex.
           </div>
-      
+
           <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam.
             Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure
@@ -172,30 +171,132 @@ border: none;
       </div>
     </div>
     <div class="row">
-     <div class="col-xl-3 col-lg-4 col-md-5">
+
+      <div class="col-xl-3 col-lg-4 col-md-5">
         <div class="shadow p-3 mb-2 bg-light">
           <div class="row justify-content-center">
             <div class="img">
-              <img src="http://placehold.it/220x200" id="img-11" clas="img-fluid " alt="img">
-              <!--adding icons when hovered-->
-              <div class="overlay">
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-search"></i>
-                </button><br>
+              <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
 
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-heart"></i>
-                </button><br>
-
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-heart-o"></i>
-                </button><br>
-              </div>
             </div>
           </div>
 
           <div class="row justify-content-center">
-            <h5 class="text-center my-2">Tomato</h5>
+            <h5 class="text-center my-2">Orange</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-5">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-5">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Mango</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-5">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Kiwi</h5>
           </div>
 
           <div class="row justify-content-center">
@@ -240,12 +341,12 @@ border: none;
   }
   </script>
 
-<script>
-    function change(){
-        imageNode = document.getElementById('img-1');
-        imageNode.src = 'images/img-21.jpg';
-      
-    }
+  <script>
+  function change() {
+    imageNode = document.getElementById('img-1');
+    imageNode.src = 'images/img-21.jpg';
+
+  }
   </script>
 </body>
 
