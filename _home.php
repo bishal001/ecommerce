@@ -91,12 +91,12 @@
           <div class="row justify-content-center my-3">
             <span class="border border-primary">
               <!--creating the shades in the image-->
-              <div class="shadow p-3 mb-2 bg-light">
+              <div class="shadow bg-light">
                 <div class="img">
                   <a href="product_detail.php"><img src="http://placehold.it/200x300" id="img-8" clas="img-fluid "></a>
                   <!--adding icons when hovered-->
                   <div class="overlay">
-                    <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                    <button class="btn btn-outline-secondary my-2 mx-2"  type="button">
                       <i class="fa fa-search"></i>
                     </button><br>
 
@@ -132,7 +132,7 @@
       </div>
 
       <div class="col-xl-3 col-lg-4 col-md-5">
-        <div class="shadow p-3 mb-2 bg-light">
+        <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
               <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
@@ -183,7 +183,7 @@
       </div>
 
       <div class="col-xl-3 col-lg-4 col-md-5">
-        <div class="shadow p-3 mb-2 bg-light">
+        <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
               <img src="http://placehold.it/220x200" id="img-10" clas="img-fluid " alt="img">
@@ -234,8 +234,8 @@
       </div>
 
 
-      <div class="col-xl-3 col-lg-4 col-md-5">
-        <div class="shadow p-3 mb-2 bg-light">
+      <div class="col-xl-3 col-lg-4 col-md-5 mt-2">
+        <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
               <img src="http://placehold.it/220x200" id="img-11" clas="img-fluid " alt="img">
