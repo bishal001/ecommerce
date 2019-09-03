@@ -131,7 +131,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5">
+      <div class="col-xl-3 col-lg-4 col-md-5 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
@@ -182,7 +182,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5">
+      <div class="col-xl-3 col-lg-4 col-md-5 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
@@ -234,7 +234,7 @@
       </div>
 
 
-      <div class="col-xl-3 col-lg-4 col-md-5 mt-2">
+      <div class="col-xl-3 col-lg-4 col-md-5 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
@@ -303,7 +303,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row my-3">
       <!--creating the owl carousel-->
       <div class="owl-carousel owl-theme">
         <!--Creating a second body part using flex row-->
