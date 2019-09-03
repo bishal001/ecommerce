@@ -187,7 +187,7 @@
         <h4 class="text-start">Related Products</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
 
       <div class="col-xl-3 col-lg-4 col-md-5">
         <div class="shadow p-3 mb-2 bg-light">

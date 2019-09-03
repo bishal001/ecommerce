@@ -143,39 +143,37 @@
 			
 		</div>
 	
-	<div class="row justify-content-center">
+		<div class="row justify-content-center">
 		 <!--Adding company address, email, contact no-->
-		<div class="d-flex flex-row pb-3 justify-content-center align-items-center">
-		  <div>
+		  <div class="inline">
 			<h6 class="footerLink mb-2 fa fa-map-marker"> Nepal, Kathmandu</h6>
 		  </div>
-		  <div class="pl-3 pr-3">
+		  <div class="inline pl-3 pr-3">
 			<h6 class="footerLink mb-2 fa fa-mobile-phone"> +977-1234567890</h6>
 		  </div>
-		  <div>
+		  <div class="inline">
 			<h6 class="footerLink mb-2 fa fa-envelope"> abc@gmail.com</h6>
 		  </div>
-		</div>
 
-	</div>
+		</div>
 		<!--creating the card to keep privacy policy part-->
 
-	<div class="row mb-2 justify-content-center" style="background-color:white">
-		<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 mt-1">
-			<p class="font-weight-bold fa fa-copyright">Copyright 2019</p>
+		<div class="row mb-2 justify-content-center" style="background-color:white">
+			<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-12 mt-1 text-center">
+				<p class=" font-weight-bold fa fa-copyright">Copyright 2019</p>
+			</div>
+			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 ">
+				<a href="#" style="color:black;">Terms</a>
+			</div>
+			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 ">
+				<a href="#" style="color:black;">Terms</a>
+			</div>
+			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 ">
+				<a href="#" style="color:black;">Terms</a>
+			</div>
 		</div>
-		<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2">
-			<a href="#" style="color:black;">Terms</a>
-		</div>
-		<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2">
-			<a href="#" style="color:black;">Terms</a>
-		</div>
-		<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2">
-			<a href="#" style="color:black;">Terms</a>
-		</div>
-	</div>
 
-  </div>
+	</div>
 </body>
 
 </html>
