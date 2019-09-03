@@ -17,7 +17,6 @@
   nav>div a.nav-item.nav-link.active {
     border: none;
     padding: 18px 25px;
-    color: #fff;
     background: #1a8a64;
     border-radius: 0;
   }
@@ -25,26 +24,19 @@
   nav>div a.nav-item.nav-link.active:after {
     content: "";
     position: relative;
-    bottom: -60px;
+    bottom: -55px;
     left: -10%;
     border: 15px solid transparent;
-    border-top-color: #1a8a64;
+    border-top-color: #0db04b;
   }
 
-  .tab-content {
-    background: #fdfdfd;
-    line-height: 25px;
-    border: 1px solid #ddd;
-    border-top: 5px solid #1a8a64;
-    border-bottom: 5px solid #1a8a64;
-    padding: 30px 25px;
-  }
+  
 
   nav>div a.nav-item.nav-link:hover,
   nav>div a.nav-item.nav-link:focus {
     border: none;
-    background: #1a8a64;
-    color: #fff;
+    background: #0db04b;
+    color: #0db04b;
     border-radius: 0;
     transition: background 0.20s linear;
   }
