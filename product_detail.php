@@ -104,11 +104,11 @@
         </div>
         <div class="d-flex flex-row">
           <div class="input-group-append mr-4">
-            <button class="btn btn-dangers my-2" type="button">Add To Cart</button>
+            <button class="btn btn-dangers my-2" style="width:150px" type="button">Add To Cart</button>
           </div>
 
           <div class="input-group-append">
-            <button class="btn btn-dangers my-2" type="button">Buy Now</button>
+            <button class="btn btn-dangers my-2" style="width:150px" type="button">Buy Now</button>
           </div>
 
         </div>
