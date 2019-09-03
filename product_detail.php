@@ -40,6 +40,17 @@
     border-radius: 0;
     transition: background 0.20s linear;
   }
+/* css code for hover effect in images */
+.hover01 div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
   </style>
 </head>
 
@@ -51,8 +62,8 @@
     <div class="row">
       <div class="col-xl-4">
         <div class="row no-gutters justify-content-center">
-          <div class="shadow">
-          <img src="http://placehold.it/300x220" id="img-1" class="img-fluid ">
+          <div class="shadow hover01">
+           <div><img src="http://placehold.it/300x220" id="img-1" class="img-fluid "></div>
           </div>
         </div>
         <div class="row no-gutters pt-3 justify-content-center pb-2">
