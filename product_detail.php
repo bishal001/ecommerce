@@ -50,7 +50,18 @@
     </div>
     <div class="row">
       <div class="col-xl-4">
-        <img src="http://placehold.it/300x350" id="img-1" class="img-fluid ">
+        <div class="row no-gutters justify-content-center">
+          <div class="shadow">
+          <img src="http://placehold.it/300x220" id="img-1" class="img-fluid ">
+          </div>
+        </div>
+        <div class="row no-gutters pt-3 justify-content-center pb-2">
+          <div class="inline">
+          <img class="shadow" src="http://placehold.it/80x80" id="img-2" class="img-fluid ">
+          <img class="shadow ml-2 mr-2" src="http://placehold.it/80x80" id="img-3" class="img-fluid ">
+          <img class="shadow" src="http://placehold.it/80x80" id="img-4" class="img-fluid ">
+          </div>
+        </div>
       </div>
       <div class="col-xl-8">
         <div class="d-flex flex-row">
@@ -339,7 +350,7 @@
   <script>
   function change() {
     imageNode = document.getElementById('img-1');
-    imageNode.src = 'images/img-21.jpg';
+    imageNode.src = 'images/img_21.jpg';
 
   }
   </script>
