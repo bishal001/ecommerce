@@ -172,7 +172,56 @@ border: none;
       </div>
     </div>
     <div class="row">
-      
+     <div class="col-xl-3 col-lg-4 col-md-5">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/220x200" id="img-11" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
+
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
+
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Tomato</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
