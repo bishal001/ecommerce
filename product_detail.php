@@ -30,7 +30,7 @@
     border-top-color: #0db04b;
   }
 
-  
+
 
   nav>div a.nav-item.nav-link:hover,
   nav>div a.nav-item.nav-link:focus {
@@ -80,15 +80,8 @@
         <hr>
 
         <div class="d-flex flex-row">
-          <div class="input-group-append mr-4">
-            <button class="btn btn-dangers my-2" type="button">Add To Cart</button>
-          </div>
-
-          <div class="input-group-append">
-            <button class="btn btn-dangers my-2" type="button">Buy Now</button>
-          </div>
           <div class="my-2 pl-3">
-            <p class=" font-weight-bold">Quantity:</p>
+            <p class="font-weight-bold">Quantity:</p>
           </div>
 
           <div class="d-flex flex-row">
@@ -97,6 +90,16 @@
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn pr-2 fa fa-plus-circle fa-lg my-2" onclick="increase()"></i>
           </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="input-group-append mr-4">
+            <button class="btn btn-dangers my-2" type="button">Add To Cart</button>
+          </div>
+
+          <div class="input-group-append">
+            <button class="btn btn-dangers my-2" type="button">Buy Now</button>
+          </div>
+
         </div>
       </div>
     </div>
