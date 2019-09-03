@@ -8,7 +8,6 @@
 
 <body>
   <div class="container">
-  <!-- creating the button to load the images when pressed -->
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
@@ -774,7 +773,6 @@
   <!--writing the functions of the owl-->
   <script src="javascript/owl_carousel_js.js"></script>
 
-<!-- javascript code to load image when button pressed -->
   <script>
     function change(){
       for(i=1; i<21; i++){
