@@ -3,11 +3,12 @@
 <head>
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <?php include'nav.php'?>
+  
 </head>
 
 <body>
   <div class="container shadow-sm bg-white">
+    <?php include'nav.php'?>
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
@@ -791,9 +792,9 @@
         </div>
       </div>
     </div>
+    <hr>
+    <?php include'footer_2.php'?>
   </div>
-  <hr>
-  <?php include'footer_2.php'?>
   <!--calling the javascript files of the owl carousel-->
   <script src="jquery/jquery.min.js"></script>
   <script src="javascript/owl.carousel.min.js"></script>
