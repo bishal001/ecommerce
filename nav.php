@@ -63,6 +63,13 @@
         <div>
           <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2" style="color:white"></i></a>
         </div>
+
+				<div>
+					<a class="nav-link" href="login.php">Login</a>	
+				</div>
+				<div>
+					<a class="nav-link" href="#">Signup</a>	
+				</div>
       </div>
     </div>
   </nav>
