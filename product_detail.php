@@ -51,11 +51,20 @@
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
+
+body{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="container shadow-lg bg-white">
     <div class="text-center mb-3">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
