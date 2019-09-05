@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container shadow-sm bg-white">
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
