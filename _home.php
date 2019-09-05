@@ -96,9 +96,36 @@
                   <a href="product_detail.php"><img src="http://placehold.it/200x300" id="img-8" clas="img-fluid "></a>
                   <!--adding icons when hovered-->
                   <div class="overlay">
-                    <button class="btn btn-outline-secondary my-2 mx-2"  type="button">
+                    <button class="btn btn-outline-secondary my-2 mx-2" data-toggle="modal" data-target="#modal1" type="button">
                       <i class="fa fa-search"></i>
                     </button><br>
+                    <!-- creating a modal -->
+                    <div class="modal" id="modal1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                        <!-- creating a modal header section -->
+                          <div class="modal-header">
+                            <h5 class="modal-title inline">Apple</h5>
+                            <h5 class="modal-title inline mx-auto">Price:</h5>
+                            
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- creatin a modal body section -->
+                          <div class="modal-body">
+                            <div class="d-flex flex-row">
+                              <img src="http://placehold.it/200x200" class="img-fluid" alt="Responsive image">
+                              <p class="ml-3">An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. </p>
+                            </div>
+                          </div>
+                          <!-- creatin a modal footer section -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-dangers float-left">Buy Now</button>
+                            <button type="button" class="btn btn-dangers mr-auto">Add To Cart</button>
+                            <button type="button" class="btn btn-dangers" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>  
 
                     <button class="btn btn-outline-secondary my-2 mx-2" type="button">
                       <i class="fa fa-heart"></i>
