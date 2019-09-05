@@ -3,11 +3,20 @@
 <head>
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  
+  <style>
+    body{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container shadow-sm bg-white">
+  <div class="container bg-white">
     <?php include'nav.php'?>
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
