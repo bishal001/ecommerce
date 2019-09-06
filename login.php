@@ -6,6 +6,7 @@
 <body>
   <div class="container" style="display: flex; justify-content: center; align-items: center;">
     <div class="shadow p-3 bg-white" style="width:40%">
+    <!-- creating a form -->
       <form action="_home.php">
         <div class="form-group">
           <label for="email">Email address:</label>
