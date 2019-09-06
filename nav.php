@@ -68,7 +68,7 @@
 					<a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>	
 				</div>
 				<div>
-					<a class="" href="signup.php" style="color:white">Signup</a>	
+					<a href="signup.php" style="color:white">Signup</a>	
 				</div>
       </div>
     </div>
