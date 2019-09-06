@@ -12,17 +12,17 @@
     <h4>Register Account</h4>
   </div>
   <div class="row justify-content-center">
-    <div class="shadow p-3 bg-white" style="width:40%">
+    <div class="shadow p-3 bg-white" style="width:70%">
         <form action="_home.php">
-        <div class="row">
-          <div class="col">
-            <label for="email">Email address:</label>
-            <input type="email" class="form-control" placeholder="example@gmail.com" id="email" style="width:70%"
+        <div class="row mb-3">
+          <div class="col-xl-6">
+            <label for="fname">First Name:</label>
+            <input type="text" class="form-control" placeholder="First Name" id="fname" 
               required>
           </div>
-          <div class="col">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" placeholder="password" id="pwd" style="width:70%" required>
+          <div class="col-xl-6">
+            <label for="lname">Last Name:</label>
+            <input type="text" class="form-control" placeholder="Last Name" id="lname" required>
           </div>
         </div>
           <button type="submit" class="btn btn-dangers">Login</button>
