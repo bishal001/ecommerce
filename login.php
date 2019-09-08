@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
 <?php include'nav.php'?>
+<style>
+  .bg{
+    background-image: url("images/form_background.jpg");
+    background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      width:40%;
+  }
+</style>
 </head>
 <body>
   <div class="container" style="display: flex; justify-content: center; align-items: center;">
-    <div class="shadow p-3 bg-white" style="width:40%">
+    <div class="shadow bg p-3 bg-white">
     <!-- creating a form -->
       <form action="_home.php">
         <div class="form-group">
