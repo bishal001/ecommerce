@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <style>
+    /* css code for the background image */
     body{
       background-image: url("images/background.jpg");
       background-repeat: no-repeat;

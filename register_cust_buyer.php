@@ -35,6 +35,7 @@
     background-color: #03b100;
     border: none;
   }
+  /* css code for the background image */
   body{
       background-image: url("images/background.jpg");
       background-repeat: no-repeat;

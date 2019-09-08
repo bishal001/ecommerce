@@ -27,6 +27,7 @@
     box-sizing: border-box;
     border: none;
   }
+  /* css code for the background image */
   body{
       background-image: url("images/background.jpg");
       background-repeat: no-repeat;
