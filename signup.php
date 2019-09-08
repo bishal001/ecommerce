@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include'nav.php'?>
 </head>
 <body>
-  <div class="container">
+  <div class="container shadow-lg bg-white p-1 mt-3">
+    <?php include'nav.php'?>
     <div class="row justify-content-center mx-auto">
       <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8 mb-3">
         <a href="register_cust_buyer.php" class="btn btn-dangers" style="width:230px">Register As A Customer</a>
