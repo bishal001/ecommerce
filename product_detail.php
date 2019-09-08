@@ -83,10 +83,10 @@ body{
           </div>
         </div>
       </div>
-      <div class="col-xl-8">
+      <div class="col-xl-7">
         <div class="d-flex flex-row">
           <div class="col">
-            <h5 class="">Apple Apple Apple Apple Apple Apple Apple</h5>
+            <h5 class="justify-content-start">Apple Apple Apple Apple Apple Apple Apple</h5>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
