@@ -5,10 +5,16 @@
 </head>
 <body>
   <div class="container">
-    <div class="d-flex flex-row justify-content-center">
-      <a href="register_cust_buyer.php" class="btn btn-dangers">Register As A Customer</a>
-      <a href="register_cust_buyer.php" class="btn btn-dangers ml-3 mr-3">Register As A Volume Buyer</a>
-      <a href="register_supplier.php" class="btn btn-dangers">Register As A Supplier</a>
+    <div class="row justify-content-center mx-auto">
+      <div class="col-xl-3 col-lg-4 col-md-4 col-sm-8 mb-3">
+        <a href="register_cust_buyer.php" class="btn btn-dangers" style="width:230px">Register As A Customer</a>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-4 col-sm-8 mb-3">
+        <a href="register_cust_buyer.php" class="btn btn-dangers" style="width:230px">Register As A Volume Buyer</a>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-4 col-sm-8">
+        <a href="register_supplier.php" class="btn btn-dangers" style="width:230px">Register As A Supplier</a>
+      </div>
     </div>
   </div>
 </body>
