@@ -13,6 +13,16 @@
       width:700px;
       height:300px;
   }
+  .text{
+    color: white;
+  }
+  .background{
+    background-color: #3bff72;
+    color: white;
+    width:70%;
+    box-sizing: border-box;
+    border: none;
+  }
 </style>
 </head>
 <body>
@@ -21,12 +31,12 @@
     <!-- creating a form -->
       <form action="_home.php">
         <div class="form-group">
-          <label for="email">Email address:</label>
-          <input type="email" class="form-control" placeholder="example@gmail.com" id="email" style="width:70%" required>
+          <label for="email" class="text">Email address:</label>
+          <input type="email" class="form-control background" placeholder="example@gmail.com" id="email" required>
         </div>
         <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" placeholder="password" id="pwd" style="width:70%" required>
+          <label for="pwd" class="text">Password:</label>
+          <input type="password" class="form-control background" placeholder="password" id="pwd" required>
         </div>
         <button type="submit" class="btn btn-dangers">Login</button>
       </form>
