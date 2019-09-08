@@ -47,8 +47,9 @@
     </div>
     <div class="row justify-content-center">
       <div class="shadow p-3 bg-white bg" style="width:70%">
-        <!-- creatin a register form -->
+        <!-- creatin a register form and setting the action-->
         <form action="_home.php">
+          <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
           <div class="row mb-3">
@@ -71,6 +72,7 @@
               <input type="text" class="form-control background" placeholder="Mobile Number" id="number" required>
             </div>
           </div>
+          <!-- creating the password section -->
           <span class="badge">Your Password</span>
           <hr>
           <div class="row mb-3">
@@ -83,7 +85,20 @@
               <input type="password" class="form-control background" placeholder="Password Confirm" id="cpsw" required>
             </div>
           </div>
-          <button type="submit" class="btn btn-dangers">Login</button>
+          <!-- creating the newsletter section -->
+          <span class="badge">Newsletter</span>
+          <hr>
+          <div class="row mb-3">
+            <div class="col">
+              <!-- creating a dorpdown for the newsletter -->
+              <select name="newsletter" class="form-control background">
+              <option value="select">--Subscribe--</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dangers float-right">Continue</button>
         </form>
       </div>
     </div>
