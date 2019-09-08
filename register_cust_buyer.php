@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <?php include'nav.php'?>
   <style>
   /* css for the background image of the shadow */
   .bg {
@@ -36,12 +35,21 @@
     background-color: #03b100;
     border: none;
   }
+  body{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container shadow-lg bg-white">
+  <?php include'nav.php'?>
     <div class="row justify-content-center">
       <h4>Register Account</h4>
     </div>
