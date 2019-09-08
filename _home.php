@@ -64,9 +64,9 @@
       </div>
 
       <!--creating the section of the body-->
-      <div class="col-xl-3 col-lg-3">
+      <div class="col-xl-3 col-lg-3 mb-3">
         <div class="row justify-content-center">
-          <div class="shadow">
+          <div class="shadow mb-2">
            <img src="http://placehold.it/275x190" id="img-5" class="img-fluid" alt="Responsive image">
           </div>
         </div>

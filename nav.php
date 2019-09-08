@@ -48,10 +48,10 @@
           </li>
         </ul>
         <!--creating the search bar and button-->
-          <div class="d-flex flex-row">
-            <input type="text" placeholder="Search">
-            <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
-          </div>
+        <div class="d-flex flex-row">
+          <input type="text" placeholder="Search">
+          <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
+        </div>
         <div class="d-flex flex-row ml-2">
           <div>
             <a href="cart.php"><i class="fa fa-shopping-cart fa-lg mt-1" style="color:white"></i></a>
@@ -61,10 +61,10 @@
           </div>
 
           <div>
-            <a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>	
+            <a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>
           </div>
           <div>
-            <a href="signup.php" style="color:white">Signup</a>	
+            <a href="signup.php" style="color:white">Signup</a>
           </div>
         </div>
       </div>

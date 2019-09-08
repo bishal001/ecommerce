@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include'nav.php'?>
 <style>
   .bg{
     /* css for the background image of the shadow */
@@ -29,8 +28,9 @@
 </style>
 </head>
 <body>
-  <div class="container" style="display: flex; justify-content: center; align-items: center;">
-    <div class="shadow bg p-3 bg-white">
+  <div class="container shadow-lg bg-white p-2 mt-3">
+    <?php include'nav.php'?>
+    <div class="shadow bg p-3 bg-white mx-auto">
     <!-- creating a form -->
       <form action="_home.php">
         <div class="form-group">
