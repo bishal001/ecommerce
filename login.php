@@ -17,7 +17,7 @@
     color: white;
   }
   .background{
-    background-color: #3bff72;
+    background-color: #49ff46;
     color: white;
     width:70%;
     box-sizing: border-box;
