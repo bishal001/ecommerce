@@ -49,6 +49,7 @@
       <div class="shadow p-3 bg-white bg" style="width:70%">
         <!-- creatin a register form and setting the action-->
         <form action="_home.php">
+          <p class="text">Register as:</p>
           <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
