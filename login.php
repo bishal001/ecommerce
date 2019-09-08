@@ -10,7 +10,8 @@
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
-      width:40%;
+      width:700px;
+      height:300px;
   }
 </style>
 </head>
