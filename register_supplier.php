@@ -45,8 +45,9 @@
   </style>
 </head>
 <body>
-  <div class="container shadow-lg bgwhite mb-2">
+  <div class="container shadow-lg bg-white mb-2">
     <?php include'nav.php'?>
+    <h4 class="font-weight-bold text-center">Seller Registration</h4>
   </div>
 </body>
 </html>
