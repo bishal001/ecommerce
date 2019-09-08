@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container shadow-lg bg-white p-1 mt-3">
+  <div class="container shadow-lg bg-white p-2 mt-3">
     <?php include'nav.php'?>
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
@@ -168,7 +168,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5 col-6 my-3">
+      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
@@ -219,7 +219,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5 col-6 my-3">
+      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
@@ -271,7 +271,7 @@
       </div>
 
 
-      <div class="col-xl-3 col-lg-4 col-md-5 col-6 my-3">
+      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
         <div class="shadow">
           <div class="row justify-content-center">
             <div class="img">
