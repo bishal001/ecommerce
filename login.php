@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<style>
-  .bg{
+  <style>
+  .bg {
     /* css for the background image of the shadow */
     background-image: url("images/form_background.jpg");
     background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 500px;
+    height: auto;
+  }
+
+  .text {
+    /* css for the label color */
+    color: white;
+  }
+
+  .background {
+    /* css for the text field */
+    background-color: #49ff46;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+  }
+  body{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
       background-color: #cccccc;
       background-size: cover;
       background-position: center center;
       background-attachment: fixed;
-      width:700px;
-      height:300px;
-  }
-  .text{
-    /* css for the label color */
-    color: white;
-  }
-  .background{
-    /* css for the text field */
-    background-color: #49ff46;
-    color: white;
-    width:70%;
-    box-sizing: border-box;
-    border: none;
-  }
-</style>
+    }
+  </style>
 </head>
+
 <body>
   <div class="container shadow-lg bg-white p-1">
     <?php include'nav.php'?>
-    <div class="shadow bg p-3 bg-white mx-auto">
-    <!-- creating a form -->
+    <div class="row justify-content-center">
+    <div class="shadow bg p-3 bg-white">
+      <!-- creating a form -->
       <form action="_home.php">
-        <div class="form-group">
+        <div class="row no-gutters">
           <label for="email" class="text">Email address:</label>
           <input type="email" class="form-control background" placeholder="example@gmail.com" id="email" required>
         </div>
-        <div class="form-group">
+        <div class="row no-gutters">
           <label for="pwd" class="text">Password:</label>
           <input type="password" class="form-control background" placeholder="password" id="pwd" required>
         </div>
-        <button type="submit" class="btn btn-dangers">Login</button>
+        <button type="submit" class="btn btn-dangers mt-3">Login</button>
       </form>
+    </div>
     </div>
   </div>
 </body>
+
 </html>
