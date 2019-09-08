@@ -48,10 +48,10 @@
 
 <body>
 
-  <div class="container shadow-lg bg-white">
+  <div class="container shadow-lg bg-white mb-2">
   <?php include'nav.php'?>
     <div class="row justify-content-center">
-      <h4>Register Account</h4>
+      <h4 class="font-weight-bold">Register Account</h4>
     </div>
     <div class="row justify-content-center">
       <div class="shadow p-3 bg-white bg" style="width:70%">

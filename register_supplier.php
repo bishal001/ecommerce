@@ -45,7 +45,7 @@
   </style>
 </head>
 <body>
-  <div class="container shadow-lg bgwhite">
+  <div class="container shadow-lg bgwhite mb-2">
     <?php include'nav.php'?>
   </div>
 </body>
