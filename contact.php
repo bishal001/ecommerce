@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <div class="container shadow-lg bg-white p-1 mt-2">
+  <div class="container shadow-lg bg-white p-1">
     <?php include'nav.php'?>
     <div class="row">
       <div class="col-xl-5">

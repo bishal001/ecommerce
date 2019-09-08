@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container shadow-lg bg-white p-2 mt-3">
+  <div class="container shadow-lg bg-white p-1">
     <?php include'nav.php'?>
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>

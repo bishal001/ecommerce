@@ -28,7 +28,7 @@
 </style>
 </head>
 <body>
-  <div class="container shadow-lg bg-white p-1 mt-3">
+  <div class="container shadow-lg bg-white p-1">
     <?php include'nav.php'?>
     <div class="shadow bg p-3 bg-white mx-auto">
     <!-- creating a form -->
