@@ -11,7 +11,7 @@
   <script src="jquery/popper.min.js"></script>
   <script src="javascript/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
