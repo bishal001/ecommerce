@@ -4,6 +4,7 @@
 <?php include'nav.php'?>
 <style>
   .bg{
+    /* css for the background image of the shadow */
     background-image: url("images/form_background.jpg");
     background-repeat: no-repeat;
       background-color: #cccccc;
@@ -14,9 +15,11 @@
       height:300px;
   }
   .text{
+    /* css for the label color */
     color: white;
   }
   .background{
+    /* css for the text field */
     background-color: #49ff46;
     color: white;
     width:70%;
