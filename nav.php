@@ -48,21 +48,16 @@
           </li>
         </ul>
         <!--creating the search bar and button-->
-        <div class="input-group">
-          <form class="form-inline">
-            <div class="d-flex flex-row">
-              <input type="text" class="form-control " placeholder="Search">
-              <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
-            </div>
-           
-          </form>
-        </div>
-        <div class="d-flex flex-row">
+          <div class="d-flex flex-row">
+            <input type="text" placeholder="Search">
+            <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
+          </div>
+        <div class="d-flex flex-row ml-2">
           <div>
-            <a href="cart.php"><i class="fa fa-shopping-cart fa-lg " style="color:white"></i></a>
+            <a href="cart.php"><i class="fa fa-shopping-cart fa-lg mt-1" style="color:white"></i></a>
           </div>
           <div>
-            <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2" style="color:white"></i></a>
+            <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2 mt-1" style="color:white"></i></a>
           </div>
 
           <div>
