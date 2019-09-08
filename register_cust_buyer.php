@@ -48,7 +48,7 @@
 
 <body>
 
-  <div class="container shadow-lg bg-white mb-2">
+  <div class="container shadow-lg bg-white p-1">
   <?php include'nav.php'?>
     <div class="row justify-content-center">
       <h4 class="font-weight-bold">Register Account</h4>
