@@ -48,28 +48,30 @@
           </li>
         </ul>
         <!--creating the search bar and button-->
-        <div class="input-group mb-3 my-auto">
-          <form class="form-inline my-auto ml-auto">
-            <input type="text" class="form-control ar-sm-2 my-2" placeholder="Search" aria-label="Recipient's username"
-              aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-dangers my-xl-2 ml-2" style="color:white" type="button">Search</button>
+        <div class="input-group">
+          <form class="form-inline">
+            <div class="d-flex flex-row">
+              <input type="text" class="form-control " placeholder="Search">
+              <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
             </div>
+           
           </form>
         </div>
-        <div>
-          <a href="cart.php"><i class="fa fa-shopping-cart fa-lg ml-2 " style="color:white"></i></a>
-        </div>
-        <div>
-          <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2" style="color:white"></i></a>
-        </div>
+        <div class="d-flex flex-row">
+          <div>
+            <a href="cart.php"><i class="fa fa-shopping-cart fa-lg " style="color:white"></i></a>
+          </div>
+          <div>
+            <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2" style="color:white"></i></a>
+          </div>
 
-				<div>
-					<a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>	
-				</div>
-				<div>
-					<a href="signup.php" style="color:white">Signup</a>	
-				</div>
+          <div>
+            <a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>	
+          </div>
+          <div>
+            <a href="signup.php" style="color:white">Signup</a>	
+          </div>
+        </div>
       </div>
     </div>
   </nav>
