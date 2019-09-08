@@ -71,6 +71,18 @@
               <input type="text" class="form-control background" placeholder="Mobile Number" id="number" required>
             </div>
           </div>
+          <span class="badge">Your Password</span>
+          <hr>
+          <div class="row mb-3">
+            <div class="col-xl-6">
+              <label for="password" class="text">Password:</label>
+              <input type="password" class="form-control background" placeholder="Password" id="password" required>
+            </div>
+            <div class="col-xl-6">
+              <label for="cpsw" class="text">Password Confirm:</label>
+              <input type="password" class="form-control background" placeholder="Password Confirm" id="cpsw" required>
+            </div>
+          </div>
           <button type="submit" class="btn btn-dangers">Login</button>
         </form>
       </div>
