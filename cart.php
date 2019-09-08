@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-xl-8">
+      <div class="col-xl-9">
         <div class="row no-gutters">
           <div class="shadow-sm p-2 mb-2 bg-white">
             <div class="d-flex flex-row">
@@ -148,7 +148,7 @@
         </div>
       </div>
 
-      <div class="col-xl-4">
+      <div class="col-xl-3">
         <div class="card">
           <div class="card-header">
             <h5>Order Total</h5>
