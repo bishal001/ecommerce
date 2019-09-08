@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <?php include'nav.php'?>
   <style>
   nav>.nav.nav-tabs {
 
@@ -65,6 +64,7 @@ body{
 
 <body>
   <div class="container shadow-lg bg-white">
+  <?php include'nav.php'?>
     <div class="text-center mb-3">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
@@ -350,10 +350,10 @@ body{
         </div>
       </div>
     </div>
-
+    <hr>
+    <?php include'footer_2.php'?>
   </div>
-  <hr>
-  <?php include'footer_2.php'?>
+  
   <!-- javascript code to increase or decrease the value for the quantity -->
   <script>
   var i = 0;
