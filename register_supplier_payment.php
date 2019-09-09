@@ -87,16 +87,56 @@
     <div class="row justify-content-center">
       <div class="shadow p-1 bg-white bg" style="width:70%">
         <!-- creatin a register form and setting the action-->
-        <form action="register_supplier_payment.php">
-        <!-- text field for the seller bank detail -->
+        <form action="_home.php">
+          <!-- text field for the seller bank detail -->
           <div class="row">
             <div class="col">
               <label for="bank" class="text">Seller Bank Detail:</label>
-              <textarea name="bankDetail" id="bank" class="form-control background" placeholder="Seller Bank Detail" cols="100" rows="7"></textarea>
+              <textarea name="bankDetail" id="bank" class="form-control background" placeholder="Seller Bank Detail"
+                cols="100" rows="7"></textarea>
             </div>
           </div>
+          <!-- text detail for the taxation type and tax identification-->
+          <div class="row">
+            <div class="col-xl-6">
+              <label for="Taxation" class="text">Select Taxation type:</label>
+              <select name="Taxation" id="Taxation" class="form-control background">
+                <option value="">--Select--</option>
+                <option value="pan">PAN</option>
+                <option value="vat">VAT</option>
+              </select>
+            </div>
+            <div class="col-xl-6">
+              <label for="Tax" class="text">Tax Identification number (PAN/VAT):</label>
+              <input type="Tax" class="form-control background" placeholder="Tax Identification number (PAN/VAT)"
+                id="snTaxame">
+            </div>
+          </div>
+          <!-- textfield for the company reg num and ips connect id -->
+          <div class="row mb-3">
+            <div class="col-xl-6">
+              <label for="Company" class="text">Company Registration Number:</label>
+              <input type="Company" class="form-control background" placeholder="Company Registration Number"
+                id="Company">
+            </div>
+            <div class="col-xl-6">
+              <label for="IPS" class="text">IPS Connect ID:</label>
+              <input type="IPS" class="form-control background" placeholder="IPS Connect ID" id="IPS">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dangers float-right">Register</button>
         </form>
-
+        
+        <button onclick="goBack()" class="btn btn-dangers mr-4 float-right">Previous</button>
+      </div>
+    </div>
+  </div>    
+  <!-- javascript code to go back -->
+<script>
+  function goBack() {
+    window.history.back()
+}
+</script>
 </body>
 
 </html>
