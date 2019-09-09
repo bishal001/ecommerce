@@ -52,6 +52,12 @@
       <p class="mr-1">Alredy have account</p>
       <a href="login.php" style="color:blue">Login</a>
     </div>
+    <!-- icon section -->
+    <div class="d-flex flex-row justify-content-center">
+      <i class="fa fa-pencil fa-3x" style="color: blue"></i>
+      <i class="fa fa-user-o fa-3x" style="color: blue"></i>
+      <i class="fa fa-credit-card fa-3x"></i>
+    </div>
     <div class="row justify-content-center">
       <div class="shadow p-1 bg-white bg" style="width:70%">
         <!-- creatin a register form and setting the action-->
@@ -164,9 +170,16 @@
             </div>
           </div>
           <button type="submit" class="btn btn-dangers float-right">Next</button>
+          <button onclick="goBack()" class="btn btn-dangers mr-4 float-right">Previous</button>
         </form>
       </div>
     </div>
   </div>
+<!-- javascript code to go back -->
+<script>
+  function goBack() {
+    window.history.back()
+}
+</script>
 </body>
 </html>
