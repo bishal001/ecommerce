@@ -54,14 +54,18 @@
     <div class="row justify-content-center">
       <h4 class="font-weight-bold">Register Account</h4>
     </div>
+    <div class="d-flex flex-row justify-content-center">
+      <p class="mr-1">Alredy have account</p>
+      <a href="login.php" style="color:blue">Login</a>
+    </div>
     <div class="row justify-content-center">
       <div class="shadow p-1 bg-white bg" style="width:70%">
         <!-- creatin a register form and setting the action-->
         <form action="_home.php">
-          <p class="text">Register as:</p>
           <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
+          <p class="text">Registering As:</p>
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="fname" class="text">First Name:</label>
