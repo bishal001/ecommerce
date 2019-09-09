@@ -37,7 +37,7 @@
             </div>
             <div class="mt-3">
               <p class="font-weight-bold">Comment:</p>
-              <textarea rows="5" cols="50"></textarea><br>
+              <textarea rows="5" cols="45"></textarea><br>
               <input type="Submit" class="my-2 btn btn-dangers float-right">
             </div>
           </div>
@@ -46,7 +46,7 @@
       <!-- adding the google map -->
       <div class="col-xl-7 col-lg-6 text-center">
         <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="450" height="400"></iframe>
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="100%" height="400"></iframe>
         </div>
       </div>
       
