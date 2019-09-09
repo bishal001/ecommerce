@@ -65,9 +65,11 @@
             <div class="col-xl-6">
               <label for="fm" class="text">Farmer Market:</label>
               <select name="newsletter" id="fm" class="form-control background">
-                <option value="select">--Subscribe--</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="select">--Select--</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
               </select>
             </div>
           </div>
