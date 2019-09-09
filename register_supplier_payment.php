@@ -22,11 +22,10 @@
 
   .background {
     /* css for the text field */
-    background-color: red;
-    color: white;
-    width: 70%;
+    background-color: #49ff46 !important;
+    color: white !important;
     box-sizing: border-box;
-    border: none;
+    border: none !important;
   }
 
   .badge {

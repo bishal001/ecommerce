@@ -21,18 +21,17 @@
 
   .background {
     /* css for the text field */
-    background-color: #49ff46;
-    color: white;
-    width: 70%;
+    background-color: #49ff46 !important;
+    color: white !important;
     box-sizing: border-box;
-    border: none;
+    border: none !important;
   }
 
   .badge {
     font-size: 20px;
     color: white;
     background-color: #03b100;
-    border: none;
+    border: none ;
   }
   body{
       background-image: url("images/background.jpg");
