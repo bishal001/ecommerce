@@ -133,7 +133,6 @@
                   <i class="fa fa-remove fa-lg pl-2 mt-3" style="color:red"></i>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
