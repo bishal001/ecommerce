@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+   /* css code for the background image */
+   body{
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+</style>
 </head>
 <body>
   <div class="container shadow-lg bg-white p-1">
