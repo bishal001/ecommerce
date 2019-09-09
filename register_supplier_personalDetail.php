@@ -55,7 +55,7 @@
     <div class="row justify-content-center">
       <div class="shadow p-1 bg-white bg" style="width:70%">
         <!-- creatin a register form and setting the action-->
-        <form action="">
+        <form action="register_supplier_sellerInformation.php">
           <!-- creating the personial detail section -->
           <div class="row mb-3">
             <div class="col-xl-6">
