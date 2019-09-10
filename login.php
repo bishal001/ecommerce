@@ -20,9 +20,13 @@
     color: white;
   }
 
+  .placeholdColor::placeholder {
+    color: white !important;
+  }
+
   .background {
     /* css for the text field */
-    background-color: #49ff46 !important;
+    background-color: #1a8a64 !important;
     color: white !important;
     box-sizing: border-box;
     border: none !important;
@@ -48,11 +52,11 @@
       <form action="_home.php">
         <div class="row no-gutters">
           <label for="email" class="text">Email address:</label>
-          <input type="email" class="form-control background" placeholder="example@gmail.com" id="email" required>
+          <input type="email" class="form-control background placeholdColor" placeholder="example@gmail.com" id="email" required>
         </div>
         <div class="row no-gutters">
           <label for="pwd" class="text">Password:</label>
-          <input type="password" class="form-control background" placeholder="password" id="pwd" required>
+          <input type="password" class="form-control background placeholdColor" placeholder="password" id="pwd" required>
         </div>
         <button type="submit" class="btn btn-dangers mt-3">Login</button>
       </form>

@@ -20,6 +20,10 @@
     color: white;
   }
 
+  .placeholdColor::placeholder {
+    color: white !important;
+  }
+  
   .background {
     /* css for the text field */
     background-color: #49ff46 !important;
@@ -68,21 +72,21 @@
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="fname" class="text">First Name:</label>
-              <input type="text" class="form-control background" placeholder="First Name" id="fname" required>
+              <input type="text" class="form-control background placeholdColor" placeholder="First Name" id="fname" required>
             </div>
             <div class="col-xl-6">
               <label for="lname" class="text">Last Name:</label>
-              <input type="text" class="form-control background" placeholder="Last Name" id="lname" required>
+              <input type="text" class="form-control background placeholdColor" placeholder="Last Name" id="lname" required>
             </div>
           </div>
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="email" class="text">E-mail:</label>
-              <input type="email" class="form-control background" placeholder="E-mail" id="email" required>
+              <input type="email" class="form-control background placeholdColor" placeholder="E-mail" id="email" required>
             </div>
             <div class="col-xl-6">
               <label for="number" class="text">Mobile Number:</label>
-              <input type="text" class="form-control background" placeholder="Mobile Number" id="number" required>
+              <input type="text" class="form-control background placeholdColor" placeholder="Mobile Number" id="number" required>
             </div>
           </div>
           <!-- creating the password section -->
@@ -91,11 +95,11 @@
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="password" class="text">Password:</label>
-              <input type="password" class="form-control background" placeholder="Password" id="password" required>
+              <input type="password" class="form-control background placeholdColor" placeholder="Password" id="password" required>
             </div>
             <div class="col-xl-6">
               <label for="cpsw" class="text">Password Confirm:</label>
-              <input type="password" class="form-control background" placeholder="Password Confirm" id="cpsw" required>
+              <input type="password" class="form-control background placeholdColor" placeholder="Password Confirm" id="cpsw" required>
             </div>
           </div>
           <!-- creating the newsletter section -->
@@ -104,7 +108,7 @@
           <div class="row mb-3">
             <div class="col">
               <!-- creating a dorpdown for the newsletter -->
-              <select name="newsletter" class="form-control background">
+              <select name="newsletter" class="form-control background placeholdColor">
               <option value="select">--Subscribe--</option>
               <option value="yes">Yes</option>
               <option value="no">No</option>

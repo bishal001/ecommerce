@@ -20,6 +20,10 @@
     color: white;
   }
 
+  .placeholdColor::placeholder {
+    color: white !important;
+  }
+
   .background {
     /* css for the text field */
     background-color: #49ff46 !important;
@@ -91,7 +95,7 @@
           <div class="row">
             <div class="col">
               <label for="bank" class="text">Seller Bank Detail:</label>
-              <textarea name="bankDetail" id="bank" class="form-control background" placeholder="Seller Bank Detail"
+              <textarea name="bankDetail" id="bank" class="form-control background placeholdColor" placeholder="Seller Bank Detail"
                 cols="100" rows="7"></textarea>
             </div>
           </div>
@@ -99,7 +103,7 @@
           <div class="row">
             <div class="col-xl-6">
               <label for="Taxation" class="text">Select Taxation type:</label>
-              <select name="Taxation" id="Taxation" class="form-control background">
+              <select name="Taxation" id="Taxation" class="form-control background placeholdColor">
                 <option value="">--Select--</option>
                 <option value="pan">PAN</option>
                 <option value="vat">VAT</option>
@@ -107,7 +111,7 @@
             </div>
             <div class="col-xl-6">
               <label for="Tax" class="text">Tax Identification number (PAN/VAT):</label>
-              <input type="Tax" class="form-control background" placeholder="Tax Identification number (PAN/VAT)"
+              <input type="Tax" class="form-control background placeholdColor" placeholder="Tax Identification number (PAN/VAT)"
                 id="snTaxame">
             </div>
           </div>
@@ -115,12 +119,12 @@
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="Company" class="text">Company Registration Number:</label>
-              <input type="Company" class="form-control background" placeholder="Company Registration Number"
+              <input type="Company" class="form-control background placeholdColor" placeholder="Company Registration Number"
                 id="Company">
             </div>
             <div class="col-xl-6">
               <label for="IPS" class="text">IPS Connect ID:</label>
-              <input type="IPS" class="form-control background" placeholder="IPS Connect ID" id="IPS">
+              <input type="IPS" class="form-control background placeholdColor" placeholder="IPS Connect ID" id="IPS">
             </div>
           </div>
           <button type="submit" class="btn btn-dangers float-right">Register</button>

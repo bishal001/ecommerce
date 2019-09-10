@@ -19,6 +19,10 @@
     color: white;
   }
 
+  .placeholdColor::placeholder {
+    color: white !important;
+  }
+  
   .background {
     /* css for the text field */
     background-color: #49ff46 !important;
@@ -88,11 +92,11 @@
           <div class="row mb-3">
             <div class="col-xl-6">
               <label for="sname" class="text">Store Name:</label>
-              <input type="text" class="form-control background" placeholder="Store Name" id="sname" required>
+              <input type="text" class="form-control background placeholdColor" placeholder="Store Name" id="sname" required>
             </div>
             <div class="col-xl-6">
               <label for="fm" class="text">Farmer Market:</label>
-              <select name="newsletter" id="fm" class="form-control background" required>
+              <select name="newsletter" id="fm" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="a">A</option>
                 <option value="b">B</option>
@@ -122,7 +126,7 @@
             <div class="col-xl-6">
             <!-- stores the province detail -->
               <label for="Province" class="text">Province:</label>
-              <select name="province" id="Province" class="form-control background" required>
+              <select name="province" id="Province" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -136,7 +140,7 @@
             <div class="col-xl-6">
             <!-- stores the district detail -->
             <label for="District" class="text">District:</label>
-              <select name="District" id="District" class="form-control background" required>
+              <select name="District" id="District" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="ilam">Ilam</option>
                 <option value="dhankuta">Dhankuta</option>
@@ -149,7 +153,7 @@
             <div class="col-xl-6">
             <!-- stores the Palika details -->
             <label for="Palika" class="text">Palika:</label>
-              <select name="Palika" id="Palika" class="form-control background" required>
+              <select name="Palika" id="Palika" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="barah">Barah Municipality</option>
                 <option value="dharan">Dharan Sub Metropolitan</option>
@@ -160,7 +164,7 @@
             <div class="col-xl-6">
             <!-- stores the Ward detail -->
             <label for="Ward" class="text">Ward:</label>
-              <select name="Ward" id="Ward" class="form-control background" required>
+              <select name="Ward" id="Ward" class="form-control background placeholdColor" required>
               <option value="">--Select--</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -179,12 +183,12 @@
             <!-- stores the number of the store -->
             <div class="col-xl-6">
               <label for="num" class="text">Store Number:</label>
-              <input type="text" class="form-control background" placeholder="Store Number" id="num">
+              <input type="text" class="form-control background placeholdColor" placeholder="Store Number" id="num">
             </div>
             <div class="col-xl-6">
             <!-- Logistics section -->
               <label for="Logistics" class="text">Logistics:</label>
-              <select name="Logistics" id="Logistics" class="form-control background" required>
+              <select name="Logistics" id="Logistics" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="need">I need logistic service</option>
                 <option value="have">I have logistic service</option>
