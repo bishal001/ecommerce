@@ -18,6 +18,7 @@
   .text {
     /* css for the label color */
     color: white;
+    font-weight: bold;
   }
   /* adding the color to the placeholder */
   .placeholdColor::placeholder {
