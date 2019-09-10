@@ -27,6 +27,8 @@
         <a href="register_supplier_personalDetail.php" class="btn btn-dangers" style="width:230px">Register As A Supplier</a>
       </div>
     </div>
+    <hr>
+  <?php include'footer_2.php'?>
   </div>
 </body>
 </html>
