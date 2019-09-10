@@ -26,7 +26,7 @@
 
   .background {
     /* css for the text field */
-    background-color: #49ff46 !important;
+    background-color: #1a8a64 !important;
     color: white !important;
     box-sizing: border-box;
     border: none !important;
