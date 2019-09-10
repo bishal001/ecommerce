@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-9">
-        <div class="shadow-lg">
+        <div class="shadow-sm bg-white">
           <!-- creating the table to store the cart detail -->
           <table class="table table-borderless">
             <!-- table heading -->
@@ -24,13 +24,9 @@
             <tr>
               <td>
                 <!-- this row contains the product name and image -->
-                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3">
-                    <img src="http://placehold.it/90x90" class="img-fluid ">
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9">
-                    <p>Apple: Red Delicious. Crunchy and Mildly Sweet</p>
-                  </div>
+                <div class="d-flex flex-row">
+                  <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                  <p>Apple</p>
                 </div>
               </td>
               <td>
@@ -57,13 +53,9 @@
             <tr>
               <td>
                 <!-- this row contains the product name and image -->
-                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3">
-                    <img src="http://placehold.it/90x90" class="img-fluid ">
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9">
-                    <p>Apple: Red Delicious. Crunchy and Mildly Sweet</p>
-                  </div>
+                <div class="d-flex flex-row">
+                  <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                  <p>Orange</p>
                 </div>
               </td>
               <td>
