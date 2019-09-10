@@ -24,26 +24,33 @@
             <td>
               <!-- this row contains the product name and image -->
               <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-md-3">
                   <img src="http://placehold.it/90x90" class="img-fluid ">
                 </div>
-                <div class="col-xl-9 p-0">
+                <div class="col-xl-9 col-lg-9 col-md-9">
                   <p>Apple: Red Delicious. Crunchy and Mildly Sweet</p>
                 </div>
               </div>
             </td>
             <td>
               <!-- contains the quantity detail -->
-              <i class="btn fa fa-minus-circle fa-lg" onclick="decrease()"></i>
-              <input type="text" size="1" id="quantity" class="calculator-input" value="0"
-                onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-              <i class=" btn fa fa-plus-circle fa-lg" onclick="increase()"></i>
+              <div class="d-flex flex-row">
+                <i class="btn fa fa-minus-circle fa-lg" onclick="decrease()"></i>
+                <input type="text" size="1" id="quantity" class="calculator-input" value="0"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                <i class=" btn fa fa-plus-circle fa-lg" onclick="increase()"></i>
+              </div>
             </td>
             <td>
+              <!-- contans the price detail -->
               <p>$10</p>
             </td>
             <td>
-              <i class="fa fa-trash fa-lg"></i>   
+              <!-- contains the icons for the edit -->
+              <div class="d-flex flex-row">
+                <i class="fa fa-trash fa-lg mr-2"></i>   
+                <i class="fa fa-refresh fa-lg"></i>
+              </div>
             </td>
           </tr>
         </table>
