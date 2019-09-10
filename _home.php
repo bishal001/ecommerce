@@ -4,15 +4,15 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <style>
-    /* css code for the background image */
-    body{
-      background-image: url("images/background.jpg");
-      background-repeat: no-repeat;
-      background-color: #cccccc;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-    }
+  /* css code for the background image */
+  body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
   </style>
 </head>
 
@@ -68,13 +68,13 @@
       <div class="col-xl-3 col-lg-3 mb-3">
         <div class="row justify-content-center">
           <div class="shadow mb-2">
-           <img src="http://placehold.it/275x190" id="img-5" class="img-fluid" alt="Responsive image">
+            <img src="http://placehold.it/275x190" id="img-5" class="img-fluid" alt="Responsive image">
           </div>
         </div>
 
         <div class="row justify-content-center my-2">
           <div class="shadow">
-          <img src="http://placehold.it/275x190" id="img-6" class="img-fluid" alt="Responsive image">
+            <img src="http://placehold.it/275x190" id="img-6" class="img-fluid" alt="Responsive image">
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
       <div class="col-xl-3 col-lg-4">
         <div class="row justify-content-center">
           <div class="shadow">
-          <img src="http://placehold.it/250x390" id="img-7" class="img-fluid" alt="Responsive image">
+            <img src="http://placehold.it/250x390" id="img-7" class="img-fluid" alt="Responsive image">
           </div>
         </div>
       </div>
@@ -107,25 +107,27 @@
                   <a href="product_detail.php"><img src="http://placehold.it/200x300" id="img-8" clas="img-fluid "></a>
                   <!--adding icons when hovered-->
                   <div class="overlay">
-                    <button class="btn btn-outline-secondary my-2 mx-2" data-toggle="modal" data-target="#modal1" type="button">
+                    <button class="btn btn-outline-secondary my-2 mx-2" data-toggle="modal" data-target="#modal1"
+                      type="button">
                       <i class="fa fa-search"></i>
                     </button><br>
                     <!-- creating a modal -->
                     <div class="modal" id="modal1">
                       <div class="modal-dialog">
                         <div class="modal-content">
-                        <!-- creating a modal header section -->
+                          <!-- creating a modal header section -->
                           <div class="modal-header">
                             <h5 class="modal-title inline">Apple</h5>
                             <h5 class="modal-title inline mx-auto">Price:</h5>
-                            
+
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                           </div>
                           <!-- creatin a modal body section -->
                           <div class="modal-body">
                             <div class="d-flex flex-row">
                               <img src="http://placehold.it/200x200" class="img-fluid" alt="Responsive image">
-                              <p class="ml-3">An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. </p>
+                              <p class="ml-3">An apple is a sweet, edible fruit produced by an apple tree. Apple trees
+                                are cultivated worldwide and are the most widely grown species in the genus Malus. </p>
                             </div>
                           </div>
                           <!-- creatin a modal footer section -->
@@ -136,7 +138,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>  
+                    </div>
 
                     <button class="btn btn-outline-secondary my-2 mx-2" type="button">
                       <i class="fa fa-heart"></i>
@@ -148,32 +150,265 @@
                   </div>
                 </div>
 
-              <a href="product_detail.php"><h5 class="text-center" style="color: black">Apple</h5></a>
-              <!--creating the rating bar-->
-              <div class="mx-5">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
-              <h5 class="text-center">Price:</h5>
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+                <a href="product_detail.php">
+                  <h5 class="text-center" style="color: black">Apple</h5>
+                </a>
+                <!--creating the rating bar-->
+                <div class="row justify-content-center">
+                  <!--creating the rating bar-->
+                  <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+
+                </div>
+                <h5 class="text-center">Price:</h5>
+                <!--creating a add to cart button-->
+                <div class="input-group-append">
+                  <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+                </div>
             </span>
           </div>
-          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
+      <div class="shadow">
+        <div class="row justify-content-center">
+          <div class="img">
+            <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
+            <!--adding icons when hovered-->
+            <div class="overlay">
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-search"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart-o"></i>
+              </button><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center my-2">Orange</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating the rating bar-->
+          <div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center">Price:</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating a add to cart button-->
+          <div class="input-group-append">
+            <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
+      <div class="shadow">
+        <div class="row justify-content-center">
+          <div class="img">
+            <img src="http://placehold.it/220x200" id="img-10" clas="img-fluid " alt="img">
+            <!--adding icons when hovered-->
+            <div class="overlay">
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-search"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart-o"></i>
+              </button><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center my-2">Cauliflower</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating the rating bar-->
+          <div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center">Price:</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating a add to cart button-->
+          <div class="input-group-append">
+            <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
+      <div class="shadow">
+        <div class="row justify-content-center">
+          <div class="img">
+            <img src="http://placehold.it/220x200" id="img-11" clas="img-fluid " alt="img">
+            <!--adding icons when hovered-->
+            <div class="overlay">
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-search"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart"></i>
+              </button><br>
+
+              <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                <i class="fa fa-heart-o"></i>
+              </button><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center my-2">Tomato</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating the rating bar-->
+          <div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <h5 class="text-center">Price:</h5>
+        </div>
+
+        <div class="row justify-content-center">
+          <!--creating a add to cart button-->
+          <div class="input-group-append">
+            <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+
+  <div class="card">
+    <div class="card-header" style="background-color:  #1a8a64; color: white">
+      <div class="row">
+        <div class="col">
+          <h4 class="text-start">Best Sellers</h4>
+        </div>
+
+        <div class="col">
+          <!--creating a navigation button for the owl-->
+          <button class="btn next float-right"><i class="fa fa-chevron-right fa-2x" style="color:white"></i></button>
+          <button class="btn prev float-right"><i class="fa fa-chevron-left fa-2x" style="color:white"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-3">
+    <!--creating the owl carousel-->
+    <div class="owl-carousel owl-theme">
+      <!--Creating a second body part using flex row-->
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-12" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
+
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
+
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
-        <div class="shadow">
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
           <div class="row justify-content-center">
             <div class="img">
-              <img src="http://placehold.it/220x200" id="img-9" clas="img-fluid " alt="img">
+              <img src="http://placehold.it/200x180" id="img-13" clas="img-fluid " alt="img">
               <!--adding icons when hovered-->
               <div class="overlay">
                 <button class="btn btn-outline-secondary my-2 mx-2" type="button">
@@ -220,63 +455,11 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
-        <div class="shadow">
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
           <div class="row justify-content-center">
             <div class="img">
-              <img src="http://placehold.it/220x200" id="img-10" clas="img-fluid " alt="img">
-              <!--adding icons when hovered-->
-              <div class="overlay">
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-search"></i>
-                </button><br>
-
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-heart"></i>
-                </button><br>
-
-                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                  <i class="fa fa-heart-o"></i>
-                </button><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <h5 class="text-center my-2">Cauliflower</h5>
-          </div>
-
-          <div class="row justify-content-center">
-            <!--creating the rating bar-->
-            <div>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div>
-
-          </div>
-
-          <div class="row justify-content-center">
-            <h5 class="text-center">Price:</h5>
-          </div>
-
-          <div class="row justify-content-center">
-            <!--creating a add to cart button-->
-            <div class="input-group-append">
-              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-xl-3 col-lg-4 col-md-5 col-9 my-3">
-        <div class="shadow">
-          <div class="row justify-content-center">
-            <div class="img">
-              <img src="http://placehold.it/220x200" id="img-11" clas="img-fluid " alt="img">
+              <img src="http://placehold.it/200x180" id="img-14" clas="img-fluid " alt="img">
               <!--adding icons when hovered-->
               <div class="overlay">
                 <button class="btn btn-outline-secondary my-2 mx-2" type="button">
@@ -323,487 +506,312 @@
         </div>
       </div>
 
-    </div>
-    <hr>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-15" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-    <div class="card">
-      <div class="card-header" style="background-color:  #1a8a64; color: white">
-        <div class="row">
-          <div class="col">
-            <h4 class="text-start">Best Sellers</h4>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
+
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
+              </div>
+            </div>
           </div>
 
-          <div class="col">
-            <!--creating a navigation button for the owl-->
-            <button class="btn next float-right"><i class="fa fa-chevron-right fa-2x" style="color:white"></i></button>
-            <button class="btn prev float-right"><i class="fa fa-chevron-left fa-2x" style="color:white"></i></button>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Lady Finger</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row my-3">
-      <!--creating the owl carousel-->
-      <div class="owl-carousel owl-theme">
-        <!--Creating a second body part using flex row-->
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-12" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-16" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
-            </div>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
-
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-13" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
-
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Orange</h5>
-            </div>
+          </div>
 
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
 
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-17" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-14" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
-
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Tomato</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
-
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-15" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
-
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Lady Finger</h5>
-            </div>
+          </div>
 
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
 
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-18" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-16" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
-
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
-
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-17" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
-            </div>
+          </div>
 
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
 
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-18" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+      </div>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-19" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
-            </div>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
-
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-19" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
-
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
-            </div>
+          </div>
 
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
 
-            </div>
-
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="shadow p-3 mb-2 bg-light">
-            <div class="row justify-content-center">
-              <div class="img">
-                <img src="http://placehold.it/200x180" id="img-20" clas="img-fluid " alt="img">
-                <!--adding icons when hovered-->
-                <div class="overlay">
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-search"></i>
-                  </button><br>
+      </div>
+      <div class="col">
+        <div class="shadow p-3 mb-2 bg-light">
+          <div class="row justify-content-center">
+            <div class="img">
+              <img src="http://placehold.it/200x180" id="img-20" clas="img-fluid " alt="img">
+              <!--adding icons when hovered-->
+              <div class="overlay">
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-search"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart"></i>
-                  </button><br>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart"></i>
+                </button><br>
 
-                  <button class="btn btn-outline-secondary my-2 mx-2" type="button">
-                    <i class="fa fa-heart-o"></i>
-                  </button><br>
-                </div>
+                <button class="btn btn-outline-secondary my-2 mx-2" type="button">
+                  <i class="fa fa-heart-o"></i>
+                </button><br>
               </div>
             </div>
+          </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center my-2">Apple</h5>
+          <div class="row justify-content-center">
+            <h5 class="text-center my-2">Apple</h5>
+          </div>
+
+          <div class="row justify-content-center">
+            <!--creating the rating bar-->
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </div>
 
-            <div class="row justify-content-center">
-              <!--creating the rating bar-->
-              <div>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-              </div>
+          </div>
 
-            </div>
+          <div class="row justify-content-center">
+            <h5 class="text-center">Price:</h5>
+          </div>
 
-            <div class="row justify-content-center">
-              <h5 class="text-center">Price:</h5>
-            </div>
-
-            <div class="row justify-content-center">
-              <!--creating a add to cart button-->
-              <div class="input-group-append">
-                <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
-              </div>
+          <div class="row justify-content-center">
+            <!--creating a add to cart button-->
+            <div class="input-group-append">
+              <button class="btn btn-dangers my-2 mx-auto" type="button">Add To Cart</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <hr>
-    <?php include'footer_2.php'?>
+  </div>
+  <hr>
+  <?php include'footer_2.php'?>
   </div>
   <!--calling the javascript files of the owl carousel-->
   <script src="jquery/jquery.min.js"></script>
@@ -812,12 +820,12 @@
   <script src="javascript/owl_carousel_js.js"></script>
 
   <script>
-    function change(){
-      for(i=1; i<21; i++){
-        imageNode = document.getElementById('img-'+i);
-        imageNode.src = 'images/img-'+i+'.jpg';
-      }
+  function change() {
+    for (i = 1; i < 21; i++) {
+      imageNode = document.getElementById('img-' + i);
+      imageNode.src = 'images/img-' + i + '.jpg';
     }
+  }
   </script>
 
 </body>
