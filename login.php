@@ -45,7 +45,7 @@
 </head>
 
 <body>
-  <div class="container shadow-lg bg-white p-1" style="height: 600px;">
+  <div class="container shadow-lg bg-white p-1">
     <?php include'nav.php'?>
     <div class="row justify-content-center">
     <div class="shadow bg p-3 bg-white">
@@ -63,6 +63,8 @@
       </form>
     </div>
     </div>
+    <hr>
+    <?php include'footer_2.php'?>
   </div>
 </body>
 
