@@ -19,7 +19,7 @@
     /* css for the label color */
     color: white;
   }
-
+  /* adding the color to the placeholder */
   .placeholdColor::placeholder {
     color: white !important;
   }
