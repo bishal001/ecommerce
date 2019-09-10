@@ -201,6 +201,8 @@
         </form>
       </div>
     </div>
+    <hr>
+  <?php include'footer_2.php'?>
   </div>
 <!-- javascript code to go back -->
 <script>

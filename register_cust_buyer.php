@@ -120,6 +120,8 @@
         </form>
       </div>
     </div>
+    <hr>
+  <?php include'footer_2.php'?>
   </div>
 </body>
 

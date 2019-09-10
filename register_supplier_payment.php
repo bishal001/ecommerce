@@ -134,6 +134,8 @@
         <button onclick="goBack()" class="btn btn-dangers mr-4 float-right">Previous</button>
       </div>
     </div>
+    <hr>
+  <?php include'footer_2.php'?>
   </div>    
   <!-- javascript code to go back -->
 <script>
