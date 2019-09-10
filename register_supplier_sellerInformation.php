@@ -111,7 +111,7 @@
             <div class="col-xl-6">
               <!-- stores the logo of the store -->
               <div class="row no-gutters">
-               <label for="sLogo" class="text">Store Logo:</label>
+               <label for="sLogo" class="text" >Store Logo:</label>
               </div>
               <div class="row no-gutters">
                 <input type="file" id="sLogo">
