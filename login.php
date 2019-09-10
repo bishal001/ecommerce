@@ -45,7 +45,7 @@
 </head>
 
 <body>
-  <div class="container shadow-lg bg-white p-1">
+  <div class="container shadow-lg bg-white p-1" style="height: 600px;">
     <?php include'nav.php'?>
     <div class="row justify-content-center">
     <div class="shadow bg p-3 bg-white">
