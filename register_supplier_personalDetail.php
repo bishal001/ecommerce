@@ -8,31 +8,33 @@
       <a href="login.php" style="color:blue">Login</a>
     </div>
     <!-- icon section -->
-    <div class="row justify-content-center">
-      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 mt-2">
-        <div class="row no-gutters mx-5">
-          <i class="fa fa-pencil fa-edit fa-3x" style="color: blue"></i>
+    <div class="shadow mx-auto" style="width:72%; background-color:#1a8a64">
+      <div class="row justify-content-center mb-2" >
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 mt-2">
+          <div class="row no-gutters mx-5">
+            <i class="fa fa-pencil fa-edit fa-3x" style="color:#0db04b"></i>
+          </div>
+          <div class="row no-gutters text-center">
+            <p class=" font-weight-bold" style="color:white">Personal Detail</p>
+          </div>
         </div>
-        <div class="row no-gutters text-center">
-          <p class=" font-weight-bold" style="color:blue">Personal Detail</p>
-        </div>
-      </div>
 
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4">
-        <div class="row no-gutters mx-4">
-          <i class="fa fa-user-o fa-user fa-3x ml-3 mr-3 mb-2"></i>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 mt-2">
+          <div class="row no-gutters mx-4">
+            <i class="fa fa-user-o fa-user fa-3x ml-3 mr-3" style="color:white"></i>
+          </div>
+          <div class="row no-gutters text-center">
+            <p class=" font-weight-bold text">Seller Information</p>
+          </div>
         </div>
-        <div class="row no-gutters text-center">
-          <p class=" font-weight-bold">Seller Information</p>
-        </div>
-      </div>
 
-      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 mt-2">
-        <div class="row no-gutters mx-4">
-          <i class="fa fa-credit-card fa-3x"></i>
-        </div>
-        <div class="row no-gutters text-center">
-          <p class=" font-weight-bold">Payment Detail</p>
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 mt-2">
+          <div class="row no-gutters mx-4">
+            <i class="fa fa-credit-card fa-3x" style="color:white"></i>
+          </div>
+          <div class="row no-gutters text-center">
+            <p class=" font-weight-bold text">Payment Detail</p>
+          </div>
         </div>
       </div>
     </div>
