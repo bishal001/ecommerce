@@ -104,6 +104,7 @@ a{
 /* adding the color to the placeholder */
 .placeholdColor::placeholder {
 	color: white !important;
+	opacity: 0.5;
 }
 
 .background {
