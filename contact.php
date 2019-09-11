@@ -11,7 +11,7 @@
             <p class="font-weight-bold text">E-mail:</p> <input type="text" size="30">
           </div>
           <div class="mt-3">
-            <p class="font-weight-bold text">Phone No:</p> <input type="text" size="30">
+            <p class="font-weight-bold text">Phone Number:</p> <input type="text" size="30">
           </div>
           <div class="mt-3">
             <p class="font-weight-bold text">Comment:</p>
