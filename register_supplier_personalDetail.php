@@ -73,7 +73,7 @@
               <input type="password" class="form-control background placeholdColor" placeholder="Password Confirm" id="cpsw" required>
             </div>
           </div>
-          <button type="submit" class="btn btn-dangers float-right">Next</button>
+          <button type="submit" class="btn btn-dangers float-right font-weight-bold">Next<i class="fa fa-arrow-right ml-1"></i></button>
         </form>
       </div>
     </div>

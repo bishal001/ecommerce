@@ -77,10 +77,10 @@
               <input type="IPS" class="form-control background placeholdColor" placeholder="IPS Connect ID" id="IPS">
             </div>
           </div>
-          <button type="submit" class="btn btn-dangers float-right">Register</button>
+          <button type="submit" class="btn btn-dangers float-right font-weight-bold">Next<i class="fa fa-arrow-right ml-1"></i></button>
         </form>
         
-        <button onclick="goBack()" class="btn btn-dangers mr-4 float-right">Previous</button>
+        <button onclick="goBack()" class="btn btn-dangers mr-4 float-right font-weight-bold"><i class="fa fa-arrow-left mr-1"></i>Previous</button>
       </div>
     </div>
     <hr>
