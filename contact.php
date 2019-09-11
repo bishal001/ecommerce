@@ -2,19 +2,19 @@
   <?php include'nav.php'?>
   <div class="row">
     <div class="col-xl-5 col-lg-6 mb-3">
-      <div class="shadow ">
+      <div class="shadow" style="background-color: #58d486">
         <div class="d-flex flex-column ml-2">
           <div>
-            <p class="font-weight-bold">Name:</p> <input type="text" size="30">
+            <p class="font-weight-bold text">Name:</p> <input type="text" size="30">
           </div>
           <div class="mt-3">
-            <p class="font-weight-bold">E-mail:</p> <input type="text" size="30">
+            <p class="font-weight-bold text">E-mail:</p> <input type="text" size="30">
           </div>
           <div class="mt-3">
-            <p class="font-weight-bold">Phone No:</p> <input type="text" size="30">
+            <p class="font-weight-bold text">Phone No:</p> <input type="text" size="30">
           </div>
           <div class="mt-3">
-            <p class="font-weight-bold">Comment:</p>
+            <p class="font-weight-bold text">Comment:</p>
             <textarea rows="5" cols="50"></textarea><br>
             <input type="Submit" class="my-2 btn btn-dangers">
           </div>
