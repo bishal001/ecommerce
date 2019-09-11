@@ -1,24 +1,8 @@
-<html>
 
-<head>
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <style>
-  /* css code for the background image */
-  body {
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  </style>
-</head>
+<?php include'nav.php'?>
 
-<body>
   <div class="container shadow-lg bg-white">
-    <?php include'nav.php'?>
+   
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
@@ -827,7 +811,3 @@
     }
   }
   </script>
-
-</body>
-
-</html>

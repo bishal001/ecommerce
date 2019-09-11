@@ -1,9 +1,5 @@
 .navbar{
 	background-color:#0db04b !important;
-	margin-top:15px;
-	margin-bottom:15px;
-	padding:10px;
-	position: relative;
 }
 
 .nav-link{
@@ -64,4 +60,17 @@ a{
 	transform:translate(-50%,-50%);
 }
 
-/* css code for the rating star */
+ /* css code for the background image */
+ body {
+	background-image: url("../images/background.jpg") !important;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+/* css for the footer */
+.footerLink {
+	color: white;
+}
