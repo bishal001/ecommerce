@@ -1,7 +1,4 @@
-
-
-
-  <div class="container shadow-lg bg-white">
+<div class="container shadow-lg bg-white">
   <?php include'nav.php'?>   
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
