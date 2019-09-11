@@ -797,7 +797,7 @@
   <!--calling the javascript files of the owl carousel-->
   <script src="jquery/jquery.min.js"></script>
   <script src="javascript/owl.carousel.min.js"></script>
-  <!--writing the functions of the owl-->
+  <!--calling the functions of the owl-->
   <script src="javascript/owl_carousel_js.js"></script>
 
   <script>
