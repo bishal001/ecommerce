@@ -1,5 +1,7 @@
 .navbar{
 	background-color:#0db04b !important;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 .nav-link{
@@ -73,4 +75,90 @@ a{
 /* css for the footer */
 .footerLink {
 	color: white;
+}
+
+.footers{
+	width: auto;
+	background-color:#0db04b;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+/* CSS code for the login and signup page */
+.bg {
+	/* css for the background image of the shadow */
+	background-image: url("../images/form_background.jpg");
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	width: 500px;
+	height: auto;
+}
+
+.text {
+	/* css for the label color */
+	color: white;
+	font-weight: bold;
+}
+/* adding the color to the placeholder */
+.placeholdColor::placeholder {
+	color: white !important;
+}
+
+.background {
+	/* css for the text field */
+	background-color: #1a8a64 !important;
+	color: white !important;
+	box-sizing: border-box;
+	border: none !important;
+}
+
+/* css code for the product detail page */\
+nav>.nav.nav-tabs {
+
+	border: none;
+	color: #fff;
+	background: #1a8a64;
+	border-radius: 0;
+
+}
+
+nav>div a.nav-item.nav-link,
+nav>div a.nav-item.nav-link.active {
+	border: none;
+	padding: 18px 25px;
+	background: #1a8a64;
+	border-radius: 0;
+}
+
+nav>div a.nav-item.nav-link.active:after {
+	content: "";
+	position: relative;
+	bottom: -55px;
+	left: -10%;
+	border: 15px solid transparent;
+	border-top-color: #0db04b;
+}
+
+
+
+nav>div a.nav-item.nav-link:hover,
+nav>div a.nav-item.nav-link:focus {
+	border: none;
+	background: #0db04b;
+	color: #0db04b;
+	border-radius: 0;
+	transition: background 0.20s linear;
+}
+/* css code for hover effect in images */
+.hover01 div img {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.hover01 div:hover img {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
 }

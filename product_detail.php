@@ -1,70 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <style>
-  nav>.nav.nav-tabs {
-
-    border: none;
-    color: #fff;
-    background: #1a8a64;
-    border-radius: 0;
-
-  }
-
-  nav>div a.nav-item.nav-link,
-  nav>div a.nav-item.nav-link.active {
-    border: none;
-    padding: 18px 25px;
-    background: #1a8a64;
-    border-radius: 0;
-  }
-
-  nav>div a.nav-item.nav-link.active:after {
-    content: "";
-    position: relative;
-    bottom: -55px;
-    left: -10%;
-    border: 15px solid transparent;
-    border-top-color: #0db04b;
-  }
-
-
-
-  nav>div a.nav-item.nav-link:hover,
-  nav>div a.nav-item.nav-link:focus {
-    border: none;
-    background: #0db04b;
-    color: #0db04b;
-    border-radius: 0;
-    transition: background 0.20s linear;
-  }
-/* css code for hover effect in images */
-.hover01 div img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover01 div:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-
-body{
-      background-image: url("images/background.jpg");
-      background-repeat: no-repeat;
-      background-color: #cccccc;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container shadow-lg bg-white p-1">
-  <?php include'nav.php'?>
+  <div class="container shadow-lg bg-white">
+    <?php include'nav.php'?>  
     <div class="text-center mb-3">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>
@@ -374,6 +310,3 @@ body{
 
   }
   </script>
-</body>
-
-</html>

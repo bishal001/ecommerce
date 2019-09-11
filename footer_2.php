@@ -1,6 +1,6 @@
 
   <!--started the main container-->
-  <div class="container " style="background-color:#0db04b;">
+  <div class="container footers">
 
 	 <!--created the row for the company name-->
     <div class="row justify-content-center pt-3 pb-3">

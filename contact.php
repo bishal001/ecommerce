@@ -1,5 +1,6 @@
-<?php include'nav.php'?>
-  <div class="container shadow-lg bg-white p-1">
+
+  <div class="container shadow-lg bg-white">
+    <?php include'nav.php'?>
     <div class="row">
       <div class="col-xl-5 col-lg-6 mb-3">
         <div class="shadow p-2">
