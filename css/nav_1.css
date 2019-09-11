@@ -85,7 +85,7 @@ a{
 }
 /* CSS code for the login and signup page */
 .bg {
-	/* css for the background image of the shadow */
+	/* css for the background image of the shadow in login and signup page*/
 	background-image: url("../images/form_background.jpg");
 	background-repeat: no-repeat;
 	background-color: #cccccc;
