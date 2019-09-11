@@ -2,7 +2,7 @@
   <?php include'nav.php'?>
   <div class="row">
     <div class="col-xl-5 col-lg-6 mb-3">
-      <div class="shadow" style="background-color: #58d486">
+      <div class="shadow" style="background-color: #6cab70">
         <div class="d-flex flex-column ml-2">
           <div>
             <p class="font-weight-bold text">Name:</p> <input type="text" size="30">
