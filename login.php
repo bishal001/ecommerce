@@ -14,11 +14,11 @@
           <input type="password" class="form-control background placeholdColor" placeholder="password" id="pwd"
             required>
         </div>
-        <div class="d-flex flex-row justify-content-center">
-          <button type="submit" class="btn btn-dangers mt-3 font-weight-bold">Login <i class="fa fa-arrow-right ml-1"></i> </button>
-          <button type="submit" class="btn btn-dangers mt-3 font-weight-bold ml-2">Forget Password <i class="fa fa-arrow-right ml-1"></i> </button>
-          <a href="signup.php" class="btn btn-dangers mt-3 font-weight-bold ml-2" > Signup<i class="fa fa-arrow-right ml-1"></i> </a>
+        <div class="d-flex flex-row justify-content-center mb-3">
+          <button type="submit" class="btn btn-dangers mt-3 font-weight-bold" style="width:200px">Login <i class="fa fa-unlock-alt ml-1"></i> </button>
         </div>
+        <p class="font-weight-bold text-center"><a href="#" style="color:white">Forget Password</a></p>
+        <p class="font-weight-bold text-center" style="color:white">Dont have an account?<a href="signup.php" style="color:white" class="" > Signup</a></p>
       </form>
     </div>
   </div>
