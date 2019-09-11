@@ -1,27 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <style>
-  .vl {
-    border-left: 3px solid gray;
-    height: 500px
-  }
-
-  body {
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  </style>
-</head>
-
-<body>
+<?php include'nav.php'?>
   <div class="container shadow-lg bg-white p-1">
-    <?php include'nav.php'?>
     <div class="row">
       <div class="col-xl-5 col-lg-6 mb-3">
         <div class="shadow p-2">
@@ -55,7 +33,3 @@
     <hr>
     <?php include'footer_2.php'?>
   </div>
-
-</body>
-
-</html>

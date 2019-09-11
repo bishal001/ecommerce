@@ -1,12 +1,5 @@
-<html>
-
-<head>
-  <?php include'nav.php'?>
-
-</head>
-
-<body>
-  <div class="container">
+<?php include'nav.php'?>
+  <div class="container shadow-lg bg-white">
     <div class="row">
       <div class="col-xl-9">
         <div class="shadow-sm bg-white">
@@ -118,6 +111,3 @@
     document.getElementById('quantity').value = --i;
   }
   </script>
-</body>
-
-</html>
