@@ -1,7 +1,7 @@
 <div class="container shadow-lg bg-white ">
   <?php include'nav.php'?>
   <!--cart section upto medium device-->
-  <div class="d-none d-lg-block">
+  <div class="d-none d-md-block">
     <div class="row">
       <div class="col-xl-7 col-lg-7">
         <div class="shadow-sm bg-white">
@@ -20,10 +20,10 @@
               <td>
                 <!-- this row contains the product name and image -->
                 <div class="row no-gutters">
-                  <div class="col-xl-5 col-lg">
+                  <div class="col-xl-5 col-lg col-md-4">
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
-                  <div class="col-xl-7 col-lg">
+                  <div class="col-xl-7 col-lg col-md-8">
                     <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
@@ -53,10 +53,10 @@
               <td>
                 <!-- this row contains the product name and image -->
                 <div class="row no-gutters">
-                  <div class="col-xl-5 col-lg">
+                  <div class="col-xl-5 col-lg col-md-4">
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
-                  <div class="col-xl-7 col-lg">
+                  <div class="col-xl-7 col-lg col-md-8">
                     <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
@@ -86,10 +86,10 @@
               <td>
                 <!-- this row contains the product name and image -->
                 <div class="row no-gutters">
-                  <div class="col-xl-5 col-lg">
+                  <div class="col-xl-5 col-lg col-md-4">
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
-                  <div class="col-xl-7 col-lg">
+                  <div class="col-xl-7 col-lg col-md-8">
                     <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
@@ -144,7 +144,7 @@
   </div>
 
   <!--cart section for the small device -->
-  <div class="shadow-lg bg-white d-block d-lg-none">
+  <div class="shadow-lg bg-white d-block d-md-none">
 
     <div class="row no-gutters">
       <!--contains the image-->
