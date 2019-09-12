@@ -30,12 +30,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                <div class="d-flex flex-row">
-                  <i class="btn fa fa-minus-circle fa-lg" onclick="decrease()"></i>
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="0"
+                  <input type="text" size="1" id="quantity" class="calculator-input" value="2"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  <i class=" btn fa fa-plus-circle fa-lg" onclick="increase()"></i>
-                </div>
               </td>
               <td>
                 <!-- contans the price detail -->
@@ -63,12 +59,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                <div class="d-flex flex-row">
-                  <i class="btn fa fa-minus-circle fa-lg" onclick="decrease()"></i>
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="0"
+                  <input type="text" size="1" id="quantity" class="calculator-input" value="4"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  <i class=" btn fa fa-plus-circle fa-lg" onclick="increase()"></i>
-                </div>
               </td>
               <td>
                 <!-- contans the price detail -->
@@ -96,12 +88,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                <div class="d-flex flex-row">
-                  <i class="btn fa fa-minus-circle fa-lg" onclick="decrease()"></i>
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="0"
+                  <input type="text" size="1" id="quantity" class="calculator-input" value="10"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  <i class=" btn fa fa-plus-circle fa-lg" onclick="increase()"></i>
-                </div>
               </td>
               <td>
                 <!-- contans the price detail -->
