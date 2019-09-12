@@ -43,12 +43,12 @@
         <form action="register_supplier_payment.php">
           <!-- creating the store detail section -->
           <div class="row mb-3">
-            <div class="col-xl-6">
-              <label for="sname" class="text">Store Name:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="sname" class="text">Store Name</label>
               <input type="text" class="form-control background placeholdColor" placeholder="Store Name" id="sname" required>
             </div>
-            <div class="col-xl-6">
-              <label for="fm" class="text">Farmer Market:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="fm" class="text">Farmer Market</label>
               <select name="newsletter" id="fm" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="a">A</option>
@@ -60,25 +60,25 @@
           </div>
           <!-- craeating the section to store images -->
           <div class="row mb-3">
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
               <!-- stores the logo of the store -->
               <div class="row no-gutters">
-               <label for="sLogo" class="text" >Store Logo:</label>
+               <label for="sLogo" class="text" >Store Logo</label>
               </div>
               <div class="row no-gutters">
                 <input type="file" id="sLogo">
               </div>
             </div>
             <!-- stores the banner of the store -->
-            <div class="col-xl-6">
-              <label for="sBanner" class="text">Store Banner:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="sBanner" class="text">Store Banner</label>
               <input type="file" id="sBanner">
             </div>
           </div>
           <div class="row mb-3">
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
             <!-- stores the province detail -->
-              <label for="Province" class="text">Province:</label>
+              <label for="Province" class="text">Province</label>
               <select name="province" id="Province" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="1">1</option>
@@ -90,9 +90,9 @@
                 <option value="7">7</option>
               </select>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
             <!-- stores the district detail -->
-            <label for="District" class="text">District:</label>
+            <label for="District" class="text">District</label>
               <select name="District" id="District" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="ilam">Ilam</option>
@@ -103,9 +103,9 @@
             </div>
           </div>
           <div class="row mb-3">
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
             <!-- stores the Palika details -->
-            <label for="Palika" class="text">Palika:</label>
+            <label for="Palika" class="text">Palika</label>
               <select name="Palika" id="Palika" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="barah">Barah Municipality</option>
@@ -114,9 +114,9 @@
                 <option value="itahari">Itahari Sub Metropolitan</option>
               </select>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
             <!-- stores the Ward detail -->
-            <label for="Ward" class="text">Ward:</label>
+            <label for="Ward" class="text">Ward</label>
               <select name="Ward" id="Ward" class="form-control background placeholdColor" required>
               <option value="">--Select--</option>
                 <option value="1">1</option>
@@ -134,13 +134,13 @@
           </div>
           <div class="row mb-3">
             <!-- stores the number of the store -->
-            <div class="col-xl-6">
-              <label for="num" class="text">Store Number:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="num" class="text">Store Number</label>
               <input type="text" class="form-control background placeholdColor" placeholder="Store Number" id="num">
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 col-md-6">
             <!-- Logistics section -->
-              <label for="Logistics" class="text">Logistics:</label>
+              <label for="Logistics" class="text">Logistics</label>
               <select name="Logistics" id="Logistics" class="form-control background placeholdColor" required>
                 <option value="">--Select--</option>
                 <option value="need">I need logistic service</option>

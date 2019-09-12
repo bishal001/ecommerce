@@ -5,12 +5,12 @@
       <!-- creating a form -->
       <form action="_home.php">
         <div class="row no-gutters">
-          <label for="email" class="text">Email address:</label>
+          <label for="email" class="text">Email address</label>
           <input type="email" class="form-control background placeholdColor" placeholder="example@gmail.com" id="email"
             required>
         </div>
         <div class="row no-gutters">
-          <label for="pwd" class="text">Password:</label>
+          <label for="pwd" class="text">Password</label>
           <input type="password" class="form-control background placeholdColor" placeholder="password" id="pwd"
             required>
         </div>

@@ -44,32 +44,32 @@
         <form action="register_supplier_sellerInformation.php">
           <!-- creating the personial detail section -->
           <div class="row mb-3">
-            <div class="col-xl-6">
-              <label for="fname" class="text">First Name:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="fname" class="text">First Name</label>
               <input type="text" class="form-control background placeholdColor" placeholder="First Name" id="fname" required>
             </div>
-            <div class="col-xl-6">
-              <label for="lname" class="text">Last Name:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="lname" class="text">Last Name</label>
               <input type="text" class="form-control background placeholdColor" placeholder="Last Name" id="lname" required>
             </div>
           </div>
           <div class="row mb-3">
-            <div class="col-xl-6">
-              <label for="email" class="text">E-mail:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="email" class="text">E-mail</label>
               <input type="email" class="form-control background placeholdColor" placeholder="E-mail" id="email" required>
             </div>
-            <div class="col-xl-6">
-              <label for="number" class="text">Mobile Number:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="number" class="text">Mobile Number</label>
               <input type="text" class="form-control background placeholdColor" placeholder="Mobile Number" id="number" required>
             </div>
           </div>
           <div class="row mb-3">
-            <div class="col-xl-6">
-              <label for="password" class="text">Password:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="password" class="text">Password</label>
               <input type="password" class="form-control background placeholdColor" placeholder="Password" id="password" required>
             </div>
-            <div class="col-xl-6">
-              <label for="cpsw" class="text">Password Confirm:</label>
+            <div class="col-xl-6 col-md-6">
+              <label for="cpsw" class="text">Password Confirm</label>
               <input type="password" class="form-control background placeholdColor" placeholder="Password Confirm" id="cpsw" required>
             </div>
           </div>
