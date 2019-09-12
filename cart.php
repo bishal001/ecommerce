@@ -1,12 +1,12 @@
 <div class="container shadow-lg bg-white ">
   <?php include'nav.php'?>
   <!--cart section upto medium device-->
-  <div class="d-none d-md-block">
-    <div class="row">
-      <div class="col-xl-7 col-lg-7">
-        <div class="shadow-sm bg-white">
+  <div class="d-none d-md-block ">
+    <div class="row ">
+      <div class="col-xl-7 col-lg-7 ">
+        <div class="shadow-sm bg" style="width:100%">
           <!-- creating the table to store the cart detail -->
-          <table class="table table-borderless">
+          <table class="table table-borderless ">
             <!-- table heading -->
             <tr class="table-secondary">
               <th>Product Name</th>
@@ -24,7 +24,7 @@
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
                   <div class="col-xl-7 col-lg col-md-8">
-                    <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                    <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
               </td>
@@ -53,7 +53,7 @@
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
                   <div class="col-xl-7 col-lg col-md-8">
-                    <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                    <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
               </td>
@@ -82,7 +82,7 @@
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
                   <div class="col-xl-7 col-lg col-md-8">
-                    <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                    <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
                 </div>
               </td>
