@@ -10,7 +10,7 @@
         </span>
       </button>
       <!--defining the navigation items-->
-      <div class="collapse navbar-collapse" id="respid">
+      <div class="collapse navbar-collapse text-center" id="respid">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a href="_home.php" class="nav-link active">Home</a>
@@ -32,11 +32,11 @@
           </li>
         </ul>
         <!--creating the search bar and button-->
-        <div class="d-flex flex-row">
+        <div class="d-flex flex-row justify-content-center">
           <input type="text" placeholder="Search">
           <button class="btn btn-dangers ml-2" style="color:white; width: 70px;" type="button">Search</button>
         </div>
-        <div class="d-flex flex-row ml-2">
+        <div class="d-flex flex-row ml-2 justify-content-center">
           <div>
             <a href="cart.php"><i class="fa fa-shopping-cart fa-lg mt-1" style="color:white"></i></a>
           </div>
