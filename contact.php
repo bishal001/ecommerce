@@ -28,12 +28,12 @@
           </div>
         </div>
         <div class="row mb-3">
-          <div class="col-xl-6">
-            <label for="email" class="text">E-mail:</label>
+          <div class="col-xl-6 col-md-6">
+            <label for="email" class="text">E-mail</label>
             <input type="email" class="form-control background placeholdColor" placeholder="E-mail" id="email" required>
           </div>
-          <div class="col-xl-6">
-            <label for="number" class="text">Mobile Number:</label>
+          <div class="col-xl-6 col-md-6">
+            <label for="number" class="text">Mobile Number</label>
             <input type="text" class="form-control background placeholdColor" placeholder="Mobile Number" id="number"
               >
           </div>
