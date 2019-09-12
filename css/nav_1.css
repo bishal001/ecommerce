@@ -72,6 +72,13 @@ a{
 	background-attachment: fixed;
 }
 
+.badge{
+	color: white;
+	background-color: #0db04b;
+	font-size: 13px;
+	border: none;
+}
+
 /* css for the footer */
 .footerLink {
 	color: white;
