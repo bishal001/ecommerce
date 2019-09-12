@@ -2,7 +2,7 @@
   <?php include'nav.php'?>
   <!--cart section upto medium device-->
   <div class="d-none d-lg-block">
-    <div class="row no-gutters">
+    <div class="row">
       <div class="col-xl-7 col-lg-7">
         <div class="shadow-sm bg-white">
           <!-- creating the table to store the cart detail -->
@@ -20,14 +20,12 @@
               <td>
                 <!-- this row contains the product name and image -->
                 <div class="row no-gutters">
-                  <div class="col-xl-5 col-lg-5">
+                  <div class="col-xl-5 col-lg">
                     <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                   </div>
-                  <div class="col-xl-7 col-lg-7">
+                  <div class="col-xl-7 col-lg">
                     <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                   </div>
-
-
                 </div>
               </td>
               <td>
@@ -54,9 +52,13 @@
             <tr>
               <td>
                 <!-- this row contains the product name and image -->
-                <div class="d-flex flex-row">
-                  <img src="http://placehold.it/90x90" class="img-fluid mr-3">
-                  <p>Orange</p>
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg">
+                    <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                  </div>
+                  <div class="col-xl-7 col-lg">
+                    <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                  </div>
                 </div>
               </td>
               <td>
@@ -83,9 +85,13 @@
             <tr>
               <td>
                 <!-- this row contains the product name and image -->
-                <div class="d-flex flex-row">
-                  <img src="http://placehold.it/90x90" class="img-fluid mr-3">
-                  <p>Orange</p>
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg">
+                    <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                  </div>
+                  <div class="col-xl-7 col-lg">
+                    <p>Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                  </div>
                 </div>
               </td>
               <td>
