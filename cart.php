@@ -1,7 +1,7 @@
 <div class="container shadow-lg bg-white ">
   <?php include'nav.php'?>
   <!--cart section upto medium device-->
-  <div class="d-none d-md-block">
+  <div class="d-none d-lg-block">
     <div class="row no-gutters">
       <div class="col-xl-7 col-lg-7">
         <div class="shadow-sm bg-white">
@@ -138,7 +138,7 @@
   </div>
 
   <!--cart section for the small device -->
-  <div class="shadow-lg bg-white d-block d-md-none">
+  <div class="shadow-lg bg-white d-block d-lg-none">
 
     <div class="row no-gutters">
       <!--contains the image-->
