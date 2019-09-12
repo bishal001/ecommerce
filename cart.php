@@ -142,11 +142,11 @@
 
     <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
+      <div class="col-4">
         <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
@@ -173,13 +173,13 @@
       </div>
     </div>
     <hr>
-    <div class="row no-gutters ml-2">
+    <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
-        <img src="http://placehold.it/90x90" class="img-fluid">
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
@@ -206,13 +206,13 @@
       </div>
     </div>
     <hr>
-    <div class="row no-gutters ml-2">
+    <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
-        <img src="http://placehold.it/90x90" class="img-fluid">
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
@@ -239,13 +239,13 @@
       </div>
     </div>
     <hr>
-    <div class="row no-gutters no-gutters ml-2">
+    <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
-        <img src="http://placehold.it/90x90" class="img-fluid">
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
@@ -272,13 +272,13 @@
       </div>
     </div>
     <hr>
-    <div class="row no-gutters ml-2">
+    <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
-        <img src="http://placehold.it/90x90" class="img-fluid">
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
@@ -305,14 +305,13 @@
       </div>
     </div>
     <hr>
-    <!--creating the section to display the total amount-->
-    <div class="row no-gutters ml-2">
+    <div class="row no-gutters">
       <!--contains the image-->
-      <div class="col-3">
-        <img src="http://placehold.it/90x90" class="img-fluid">
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
       </div>
       <!--contains the product name, quantity and price-->
-      <div class="col-9">
+      <div class="col-8">
         <!--stores the product name-->
         <div class="row no-gutters">
           <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
