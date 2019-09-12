@@ -363,25 +363,26 @@
         </div>
       </div>
     </div>
-    <hr>
-    <?php include'footer_2.php'?>
   </div>
-  <script>
-  var i = 0;
+  <hr>
+  <?php include'footer_2.php'?>
+</div>
+<script>
+var i = 0;
 
-  function increase() {
-    document.getElementById('quantity').value = ++i;
-  }
+function increase() {
+  document.getElementById('quantity').value = ++i;
+}
 
-  function decrease() {
-    document.getElementById('quantity').value = --i;
-  }
+function decrease() {
+  document.getElementById('quantity').value = --i;
+}
 
-  function increase_sm() {
-    document.getElementById('quantity_sm').value = ++i;
-  }
+function increase_sm() {
+  document.getElementById('quantity_sm').value = ++i;
+}
 
-  function decrease_sm() {
-    document.getElementById('quantity_sm').value = --i;
-  }
-  </script>
+function decrease_sm() {
+  document.getElementById('quantity_sm').value = --i;
+}
+</script>
