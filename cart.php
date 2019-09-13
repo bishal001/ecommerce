@@ -123,7 +123,9 @@
               <p class="font-weight-bold mx-auto">Grand-Total: $10</p>
             </div>
             <div class="text-center">
-              <button class="btn btn-dangers my-2" type="button" style="color:white">Checkout</button>
+              <form action="checkout.php">
+                <button type="submit" class="btn btn-dangers mt-3 font-weight-bold" style="width:200px">Checkout</button>
+              </form>
             </div>
           </div>
         </div>
@@ -350,7 +352,9 @@
               <p class="font-weight-bold mx-auto">Grand-Total: $10</p>
             </div>
             <div class="text-center">
-              <button class="btn btn-dangers my-2" type="button" style="color:white">Checkout</button>
+              <form action="checkout.php">
+                <button type="submit" class="btn btn-dangers mt-3 font-weight-bold" style="width:200px">Checkout</button>
+              </form>
             </div>
           </div>
         </div>
