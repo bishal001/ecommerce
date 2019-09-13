@@ -30,18 +30,18 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="2"
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
-                <p>$10</p>
+                <p class="text">$10</p>
               </td>
               <td>
                 <!-- contains the icons for the edit -->
                 <div class="d-flex flex-row mt-1">
-                  <i class="fa fa-trash fa-lg mr-3"></i>
-                  <i class="fa fa-refresh fa-lg"></i>
+                  <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                  <i class="fa fa-refresh fa-lg" style="color:white"></i>
                 </div>
               </td>
             </tr>
@@ -59,18 +59,18 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="4"
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
-                <p>$10</p>
+                <p class="text">$10</p>
               </td>
               <td>
                 <!-- contains the icons for the edit -->
                 <div class="d-flex flex-row mt-1">
-                  <i class="fa fa-trash fa-lg mr-3"></i>
-                  <i class="fa fa-refresh fa-lg"></i>
+                  <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                  <i class="fa fa-refresh fa-lg" style="color:white"></i>
                 </div>
               </td>
             </tr>
@@ -88,18 +88,18 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input" value="10"
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
                     onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
-                <p>$10</p>
+                <p class="text">$10</p>
               </td>
               <td>
                 <!-- contains the icons for the edit -->
                 <div class="d-flex flex-row mt-1">
-                  <i class="fa fa-trash fa-lg mr-3"></i>
-                  <i class="fa fa-refresh fa-lg"></i>
+                  <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                  <i class="fa fa-refresh fa-lg" style="color:white"></i>
                 </div>
               </td>
             </tr>
