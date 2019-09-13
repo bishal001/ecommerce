@@ -39,15 +39,14 @@
           </div>
           <div class="col-xl-6 col-md-6">
             <label for="number" class="text">Mobile Number</label>
-            <input type="text" class="form-control background placeholdColor" placeholder="Mobile Number" id="number"
-              >
+            <input type="text" class="form-control background placeholdColor" placeholder="Mobile Number" id="number">
           </div>
         </div>
         <div class="row mb-3">
           <div class="col">
             <label for="email" class="text">Comment</label>
             <textarea name="bankDetail" id="bank" class="form-control background placeholdColor" placeholder="Comment"
-                cols="100" rows="7"></textarea>
+              cols="100" rows="7"></textarea>
           </div>
         </div>
         <div class="row">
