@@ -63,20 +63,17 @@
             </div>
             <div class="col-xl-6 col-md-6">
               <label for="add2" class="text">Address-2</label>
-              <input type="text" class="form-control background placeholdColor" placeholder="Address-2" id="add2"
-                >
+              <input type="text" class="form-control background placeholdColor" placeholder="Address-2" id="add2">
             </div>
           </div>
           <div class="row mb-3">
             <div class="col-xl-6 col-md-6">
               <label for="city" class="text">City</label>
-              <input type="text" class="form-control background placeholdColor" placeholder="City" id="city"
-                required>
+              <input type="text" class="form-control background placeholdColor" placeholder="City" id="city" required>
             </div>
             <div class="col-xl-6 col-md-6">
               <label for="post" class="text">Post Code</label>
-              <input type="text" class="form-control background placeholdColor" placeholder="Post Code" id="post"
-                >
+              <input type="text" class="form-control background placeholdColor" placeholder="Post Code" id="post">
             </div>
           </div>
           <div class="row mb-3">
@@ -110,9 +107,48 @@
       </div>
     </div>
     <div class="col-right col-xl-6">
-      <div class="shadow p-1">
-        <div class="row no-gutters">
-          <p>Shipping Method</p>
+      <div class="row no-gutters">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <p class="font-weight-bold">Shipping Method</p>
+            </div>
+            <div class="card-body">
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">Free Shipping - Rs. 0.00
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters mt-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <p class="font-weight-bold">Payment Method</p>
+            </div>
+            <div class="card-body">
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">Cash On Delivery
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters mt-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <p class="font-weight-bold">SHOPPING CART</p>
+            </div>
+            <div class="card-body">
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
