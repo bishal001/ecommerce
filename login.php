@@ -1,7 +1,7 @@
 <div class="container shadow-lg bg-white">
   <?php include'nav.php'?>
   <div class="row justify-content-center">
-    <div class="shadow bg p-3 bg-white">
+    <div class="shadow bg p-3 w-50">
       <!-- creating a form -->
       <form action="_home.php">
         <div class="row no-gutters">
