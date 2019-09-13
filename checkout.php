@@ -140,105 +140,99 @@
             <div class="card-header">
               <p class="font-weight-bold">SHOPPING CART</p>
             </div>
-            <div class="card-body" style="background-color:#00c14a">
-              <table class="table table-borderless ">
-                <!-- table heading -->
-                <tr class="table-secondary text-center">
-                  <th>Product Name</th>
-                  <th>Quantity</th>
-                  <th>Price</th>
-                  <th>Edit</th>
-                  <th></th>
-                </tr>
-                <!-- table body -->
-                <tr>
-                  <td>
-                    <!-- this row contains the product name and image -->
-                    <div class="row">
-                      <div class="col-xl-5 col-lg col-md-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <div class="shadow p-1 bg-white">
+                    <div class="row mb-3">
+                      <div class="col-xl-2 col-lg-3 col-md-2 col-3">
                         <img src="http://placehold.it/90x90" class="img-fluid">
                       </div>
-                      <div class="col-xl-7 col-lg col-md-8">
-                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      <div class="col-xl-5 col-lg-4 col-md-6 col-5">
+                        <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
+                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                        <p class="font-weight-bold">Price: $10</p>
                       </div>
                     </div>
-                  </td>
-                  <td>
-                    <!-- contains the quantity detail -->
-                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  </td>
-                  <td>
-                    <!-- contans the price detail -->
-                    <p class="text">$10</p>
-                  </td>
-                  <td>
-                    <!-- contains the icons for the edit -->
-                    <div class="d-flex flex-row mt-1">
-                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
-                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <!-- this row contains the product name and image -->
-                    <div class="row">
-                      <div class="col-xl-5 col-lg col-md-4">
-                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+
+                    <div class="row mb-3">
+                      <div class="col-xl-2 col-lg-3 col-md-2 col-3">
+                        <img src="http://placehold.it/90x90" class="img-fluid">
                       </div>
-                      <div class="col-xl-7 col-lg col-md-8">
-                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      <div class="col-xl-5 col-lg-4 col-md-6 col-5">
+                        <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
+                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                        <p class="font-weight-bold">Price: $10</p>
                       </div>
                     </div>
-                  </td>
-                  <td>
-                    <!-- contains the quantity detail -->
-                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  </td>
-                  <td>
-                    <!-- contans the price detail -->
-                    <p class="text">$10</p>
-                  </td>
-                  <td>
-                    <!-- contains the icons for the edit -->
-                    <div class="d-flex flex-row mt-1">
-                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
-                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <!-- this row contains the product name and image -->
-                    <div class="row">
-                      <div class="col-xl-5 col-lg col-md-4">
-                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+
+                    <div class="row mb-3">
+                      <div class="col-xl-2 col-lg-3 col-md-2 col-3">
+                        <img src="http://placehold.it/90x90" class="img-fluid">
                       </div>
-                      <div class="col-xl-7 col-lg col-md-8">
-                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      <div class="col-xl-5 col-lg-4 col-md-6 col-5">
+                        <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
+                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                        <p class="font-weight-bold">Price: $10</p>
                       </div>
                     </div>
-                  </td>
-                  <td>
-                    <!-- contains the quantity detail -->
-                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  </td>
-                  <td>
-                    <!-- contans the price detail -->
-                    <p class="text">$10</p>
-                  </td>
-                  <td>
-                    <!-- contains the icons for the edit -->
-                    <div class="d-flex flex-row mt-1">
-                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
-                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
+
+                    <div class="row mb-3">
+                      <div class="col-xl-2 col-lg-3 col-md-2 col-3">
+                        <img src="http://placehold.it/90x90" class="img-fluid">
+                      </div>
+                      <div class="col-xl-5 col-lg-4 col-md-6 col-5">
+                        <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 col-md-2 col-2">
+                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
+                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                        <p class="font-weight-bold">Price: $10</p>
+                      </div>
                     </div>
-                  </td>
-                </tr>
-              </table>
+
+                    <hr>
+                      <div class="row">
+                        <div class="col">
+                          <p class="font-weight-bold">Sub Total:</p>
+                        </div>
+                        <div class="col">
+                          <p class="font-weight-bold float-right">$10</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col">
+                          <p class="font-weight-bold">Grand Total:</p>
+                        </div>
+                        <div class="col">
+                          <p class="font-weight-bold float-right">$10</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -254,7 +248,7 @@
                 <div class="col">
                   <div class="row no-gutters mb-3">
                     <textarea name="bankDetail" id="bank" class="form-control" placeholder="Comment" cols="100"
-                    rows="7"></textarea>
+                      rows="7"></textarea>
                   </div>
                   <div class="row no-gutters">
                     <div class="col text-center">
