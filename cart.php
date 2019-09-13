@@ -142,7 +142,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
@@ -175,7 +175,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
@@ -208,7 +208,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
@@ -241,7 +241,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
@@ -274,7 +274,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
@@ -307,7 +307,7 @@
       <!--contains the product name, quantity and price-->
       <div class="col-8">
         <!--stores the product name-->
-        <div class="row no-gutters text-center">
+        <div class="row no-gutters">
           <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
         </div>
 
