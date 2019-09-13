@@ -181,7 +181,9 @@
         </div>
 
         <div class="row justify-content-center">
-          <h5 class="text-center my-2">Orange</h5>
+          <div class="col-11">
+            <h5 class="text-center my-2 text-truncate">Orangessssssssssssssssssssssssssssssssssssssssssssssssssssss</h5>
+          </div>
         </div>
 
         <div class="row justify-content-center">
