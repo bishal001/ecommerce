@@ -2,7 +2,7 @@
   <?php include'nav.php'?>
   <div class="row">
     <div class="col text-center">
-      <h4 class="font-weight-bold">Checkout</h4>
+      <h3 class="font-weight-bold">CHECKOUT</h3>
     </div>
   </div>
   <div class="row">
@@ -134,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="row no-gutters mt-3">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-header">
@@ -154,7 +154,36 @@
                 <tr>
                   <td>
                     <!-- this row contains the product name and image -->
-                    <div class="row no-gutters">
+                    <div class="row">
+                      <div class="col-xl-5 col-lg col-md-4">
+                        <img src="http://placehold.it/90x90" class="img-fluid">
+                      </div>
+                      <div class="col-xl-7 col-lg col-md-8">
+                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <!-- contains the quantity detail -->
+                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                  </td>
+                  <td>
+                    <!-- contans the price detail -->
+                    <p class="text">$10</p>
+                  </td>
+                  <td>
+                    <!-- contains the icons for the edit -->
+                    <div class="d-flex flex-row mt-1">
+                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- this row contains the product name and image -->
+                    <div class="row">
                       <div class="col-xl-5 col-lg col-md-4">
                         <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                       </div>
@@ -183,36 +212,7 @@
                 <tr>
                   <td>
                     <!-- this row contains the product name and image -->
-                    <div class="row no-gutters">
-                      <div class="col-xl-5 col-lg col-md-4">
-                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
-                      </div>
-                      <div class="col-xl-7 col-lg col-md-8">
-                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <!-- contains the quantity detail -->
-                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                  </td>
-                  <td>
-                    <!-- contans the price detail -->
-                    <p class="text">$10</p>
-                  </td>
-                  <td>
-                    <!-- contains the icons for the edit -->
-                    <div class="d-flex flex-row mt-1">
-                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
-                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <!-- this row contains the product name and image -->
-                    <div class="row no-gutters">
+                    <div class="row">
                       <div class="col-xl-5 col-lg col-md-4">
                         <img src="http://placehold.it/90x90" class="img-fluid mr-3">
                       </div>
