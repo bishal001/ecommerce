@@ -5,7 +5,7 @@
       <h4 class="font-weight-bold">Checkout</h4>
     </div>
   </div>
-  <div class="row no-gutters">
+  <div class="row">
     <div class="col-left col-xl-6 mb-3">
       <div class="shadow p-1 bg">
         <!-- creatin a register form and setting the action for the checkout page-->
@@ -102,7 +102,7 @@
       </div>
     </div>
     <div class="col-right col-xl-6">
-      <div class="row no-gutters">
+      <div class="row ">
         <div class="col">
           <div class="card">
             <div class="card-header">
