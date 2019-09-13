@@ -142,14 +142,10 @@
 				<p class="font-weight-bold fa fa-copyright ">Copyright 2019</p>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 pt-1 text-center">
+				<a href="#" class="inline" style="color:black;"><p>Terms</p></a>
 				<a href="#" style="color:black;"><p>Terms</p></a>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 pt-1 text-center">
-				<a href="#" style="color:black;"><p>Terms</p></a>
-			</div>
-			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 pt-1 text-center">
-				<a href="#" style="color:black;"><p>Terms</p></a>
-			</div>
+		
 		</div>
 
 	</div>
