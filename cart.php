@@ -150,21 +150,17 @@
 
         <div class="row no-gutters">
           <!--stores the quantity-->
-          <div class="col-7">
+          <div class="col-6">
             <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
             <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
           </div>
           <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
           </div>
-        </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
         </div>
       </div>
     </div>
@@ -183,21 +179,46 @@
 
         <div class="row no-gutters">
           <!--stores the quantity-->
-          <div class="col-7">
+          <div class="col-6">
             <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
             <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
           </div>
           <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
           </div>
         </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
+       </div>
+    </div>
+    <hr>
+    <div class="row no-gutters">
+      <!--contains the image-->
+      <div class="col-4">
+        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
+      </div>
+      <!--contains the product name, quantity and price-->
+      <div class="col-8">
+        <!--stores the product name-->
+        <div class="row no-gutters">
+          <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+        </div>
+
+        <div class="row no-gutters">
+          <!--stores the quantity-->
+          <div class="col-6">
+            <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
+            <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
+              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+            <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
+          </div>
+          <!--stores the price detail-->
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -216,21 +237,17 @@
 
         <div class="row no-gutters">
           <!--stores the quantity-->
-          <div class="col-7">
+          <div class="col-6">
             <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
             <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
           </div>
           <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
           </div>
-        </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
         </div>
       </div>
     </div>
@@ -249,21 +266,17 @@
 
         <div class="row no-gutters">
           <!--stores the quantity-->
-          <div class="col-7">
+          <div class="col-6">
             <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
             <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
           </div>
           <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
           </div>
-        </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
         </div>
       </div>
     </div>
@@ -282,54 +295,17 @@
 
         <div class="row no-gutters">
           <!--stores the quantity-->
-          <div class="col-7">
+          <div class="col-6">
             <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
             <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
               onkeypress="return event.charCode >= 48 && event.charCode <= 57">
             <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
           </div>
           <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
+          <div class="col-6">
+            <p class="text d-inline mr-2">Price: $10</p>
+            <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
           </div>
-        </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="row no-gutters">
-      <!--contains the image-->
-      <div class="col-4">
-        <img src="http://placehold.it/90x90" class="img-fluid ml-2 mt-2">
-      </div>
-      <!--contains the product name, quantity and price-->
-      <div class="col-8">
-        <!--stores the product name-->
-        <div class="row no-gutters">
-          <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
-        </div>
-
-        <div class="row no-gutters">
-          <!--stores the quantity-->
-          <div class="col-7">
-            <i class="btn fa fa-minus-circle fa-lg text" onclick="decrease_sm()"></i>
-            <input type="text" size="1" id="quantity_sm" class="calculator-input background" value="0"
-              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-            <i class=" btn fa fa-plus-circle fa-lg text" onclick="increase_sm()"></i>
-          </div>
-          <!--stores the price detail-->
-          <div class="col-5">
-            <p class="text">Price: $10</p>
-          </div>
-        </div>
-        <!--stores the delete and update button-->
-        <div class="row no-gutters float-right">
-          <button class="btn btn-dangers ">Delete</button>
-          <button class="btn btn-dangers ml-3 mr-1">Update</button>
         </div>
       </div>
     </div>
