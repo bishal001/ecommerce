@@ -6,10 +6,10 @@
     </div>
   </div>
   <div class="row no-gutters">
-    <div class="col-left col-xl-6">
-      <div class="shadow p-1 bg-white bg">
+    <div class="col-left col-xl-6 mb-3">
+      <div class="shadow p-1 bg">
         <!-- creatin a register form and setting the action for the checkout page-->
-        <form action="_home.php">
+        <form>
           <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
@@ -98,11 +98,6 @@
               </select>
             </div>
           </div>
-          <div class="row no-gutters">
-            <div class="col text-center">
-              <button type="submit" class="btn btn-dangers w-50 font-weight-bold">Register</button>
-            </div>
-          </div>
         </form>
       </div>
     </div>
@@ -145,8 +140,129 @@
             <div class="card-header">
               <p class="font-weight-bold">SHOPPING CART</p>
             </div>
+            <div class="card-body" style="background-color:#00c14a">
+              <table class="table table-borderless ">
+                <!-- table heading -->
+                <tr class="table-secondary text-center">
+                  <th>Product Name</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Edit</th>
+                  <th></th>
+                </tr>
+                <!-- table body -->
+                <tr>
+                  <td>
+                    <!-- this row contains the product name and image -->
+                    <div class="row no-gutters">
+                      <div class="col-xl-5 col-lg col-md-4">
+                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                      </div>
+                      <div class="col-xl-7 col-lg col-md-8">
+                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <!-- contains the quantity detail -->
+                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                  </td>
+                  <td>
+                    <!-- contans the price detail -->
+                    <p class="text">$10</p>
+                  </td>
+                  <td>
+                    <!-- contains the icons for the edit -->
+                    <div class="d-flex flex-row mt-1">
+                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- this row contains the product name and image -->
+                    <div class="row no-gutters">
+                      <div class="col-xl-5 col-lg col-md-4">
+                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                      </div>
+                      <div class="col-xl-7 col-lg col-md-8">
+                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <!-- contains the quantity detail -->
+                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                  </td>
+                  <td>
+                    <!-- contans the price detail -->
+                    <p class="text">$10</p>
+                  </td>
+                  <td>
+                    <!-- contains the icons for the edit -->
+                    <div class="d-flex flex-row mt-1">
+                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- this row contains the product name and image -->
+                    <div class="row no-gutters">
+                      <div class="col-xl-5 col-lg col-md-4">
+                        <img src="http://placehold.it/90x90" class="img-fluid mr-3">
+                      </div>
+                      <div class="col-xl-7 col-lg col-md-8">
+                        <p class="text">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <!-- contains the quantity detail -->
+                    <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                  </td>
+                  <td>
+                    <!-- contans the price detail -->
+                    <p class="text">$10</p>
+                  </td>
+                  <td>
+                    <!-- contains the icons for the edit -->
+                    <div class="d-flex flex-row mt-1">
+                      <i class="fa fa-trash fa-lg mr-3" style="color:white"></i>
+                      <i class="fa fa-refresh fa-lg" style="color:white"></i>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters mt-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <p class="font-weight-bold">ADD COMMENTS ABOUT YOUR ORDER</p>
+            </div>
             <div class="card-body">
-              
+              <div class="row mb-3">
+                <div class="col">
+                  <div class="row no-gutters mb-3">
+                    <textarea name="bankDetail" id="bank" class="form-control" placeholder="Comment" cols="100"
+                    rows="7"></textarea>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col text-center">
+                      <button type="submit" class="btn btn-dangers w-50 font-weight-bold">Confirm Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

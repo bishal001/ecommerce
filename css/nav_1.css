@@ -99,7 +99,7 @@ a{
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	width: 500px;
+	width: auto;
 	height: auto;
 }
 
