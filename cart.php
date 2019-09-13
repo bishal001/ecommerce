@@ -4,7 +4,7 @@
   <div class="d-none d-md-block ">
     <div class="row ">
       <div class="col-xl-7 col-lg-7 ">
-        <div class="shadow-sm bg" style="width:100%">
+        <div class="shadow-sm" style="width:100%; background-color:#00c14a">
           <!-- creating the table to store the cart detail -->
           <table class="table table-borderless ">
             <!-- table heading -->
