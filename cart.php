@@ -30,8 +30,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
@@ -59,8 +59,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
@@ -88,8 +88,8 @@
               </td>
               <td>
                 <!-- contains the quantity detail -->
-                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57">
               </td>
               <td>
                 <!-- contans the price detail -->
@@ -331,27 +331,26 @@
         </div>
       </div>
     </div>
-    <hr>
-    <!-- section for the total amount -->
-    <div class="row no-gutters">
-      <div class="col">
-        <div class="card">
-          <div class="card-header text-center">
-            <h5>Order Total</h5>
+  </div>
+  <!-- section for the total amount -->
+  <div class="row no-gutters mt-2">
+    <div class="col">
+      <div class="card">
+        <div class="card-header text-center">
+          <h5>Order Total</h5>
+        </div>
+        <div class="card-body">
+          <div class="row no-gutters">
+            <p class="font-weight-bold mx-auto">Sub-Total: $10</p>
           </div>
-          <div class="card-body">
-            <div class="row no-gutters">
-              <p class="font-weight-bold mx-auto">Sub-Total: $10</p>
-            </div>
-            <div class="row no-gutters">
-              <p class="font-weight-bold mx-auto">VAT: 0</p>
-            </div>
-            <div class="row no-gutters">
-              <p class="font-weight-bold mx-auto">Grand-Total: $10</p>
-            </div>
-            <div class="text-center">
-              <button class="btn btn-dangers my-2" type="button" style="color:white">Checkout</button>
-            </div>
+          <div class="row no-gutters">
+            <p class="font-weight-bold mx-auto">VAT: 0</p>
+          </div>
+          <div class="row no-gutters">
+            <p class="font-weight-bold mx-auto">Grand-Total: $10</p>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-dangers my-2" type="button" style="color:white">Checkout</button>
           </div>
         </div>
       </div>
