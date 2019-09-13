@@ -61,7 +61,11 @@
             </select>
             </div>
           </div>
-          <button type="submit" class="btn btn-dangers float-right">Continue</button>
+          <div class="row no-gutters">
+            <div class="col text-center">
+              <button type="submit" class="btn btn-dangers w-50 font-weight-bold">Register</button>
+            </div>
+          </div>
         </form>
       </div>
     </div>
