@@ -6,14 +6,13 @@
     </div>
   </div>
   <div class="row no-gutters">
-    <div class="col-xl-7">
+    <div class="col-left col-xl-6">
       <div class="shadow p-1 bg-white bg">
         <!-- creatin a register form and setting the action for the checkout page-->
         <form action="_home.php">
           <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
-          <p class="text">Registering As</p>
           <div class="row mb-3">
             <div class="col-xl-6 col-md-6">
               <label for="fname" class="text">First Name</label>
@@ -54,15 +53,51 @@
             </div>
           </div>
           <!-- creating the newsletter section -->
-          <span class="badge">Newsletter</span>
+          <span class="badge">Your Address</span>
           <hr>
           <div class="row mb-3">
-            <div class="col">
-              <!-- creating a dorpdown for the newsletter -->
+            <div class="col-xl-6 col-md-6">
+              <label for="add1" class="text">Address-1</label>
+              <input type="text" class="form-control background placeholdColor" placeholder="Address-1" id="add1"
+                required>
+            </div>
+            <div class="col-xl-6 col-md-6">
+              <label for="add2" class="text">Address-2</label>
+              <input type="text" class="form-control background placeholdColor" placeholder="Address-2" id="add2"
+                >
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-xl-6 col-md-6">
+              <label for="city" class="text">City</label>
+              <input type="text" class="form-control background placeholdColor" placeholder="City" id="city"
+                required>
+            </div>
+            <div class="col-xl-6 col-md-6">
+              <label for="post" class="text">Post Code</label>
+              <input type="text" class="form-control background placeholdColor" placeholder="Post Code" id="post"
+                >
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-xl-6">
+              <label for="country" class="text">Country</label>
               <select name="newsletter" class="form-control background placeholdColor">
-                <option value="select">--Subscribe--</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="select">--Select--</option>
+                <option value="np">Nepal</option>
+                <option value="us">USA</option>
+                <option value="ch">China</option>
+                <option value="jpn">Japan</option>
+              </select>
+            </div>
+            <div class="col-xl-6">
+              <label for="dis" class="text">District</label>
+              <select name="newsletter" class="form-control background placeholdColor">
+                <option value="select">--Select--</option>
+                <option value="bag">Bagmati</option>
+                <option value="bh">Bheri</option>
+                <option value="ko">Kosi</option>
+                <option value="mec">Mechi</option>
               </select>
             </div>
           </div>
@@ -74,8 +109,12 @@
         </form>
       </div>
     </div>
-    <div class="col-xl-5">
-      
+    <div class="col-right col-xl-6">
+      <div class="shadow p-1">
+        <div class="row no-gutters">
+          <p>Shipping Method</p>
+        </div>
+      </div>
     </div>
   </div>
   <hr>
