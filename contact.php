@@ -45,8 +45,11 @@
                 cols="100" rows="7"></textarea>
           </div>
         </div>
-        <button type="submit" class="btn btn-dangers float-right font-weight-bold">Submit<i
-            class="fa fa-arrow-right ml-1"></i></button>
+        <div class="row">
+          <div class="col text-center">
+            <button type="submit" class="btn btn-dangers w-50 font-weight-bold">Submit</button>
+          </div>
+        </div>
       </form>
     </div>
   </div>
