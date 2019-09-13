@@ -15,6 +15,11 @@
       <!-- creatin a register form and setting the action-->
       <form action="register_supplier_sellerInformation.php">
         <!-- creating the personial detail section -->
+        <div class="row mb-3 no-gutters">
+          <div class="col text-center">
+            <h3 class="text">Contact Form</h3>
+          </div>
+        </div>
         <div class="row mb-3">
           <div class="col-xl-6 col-md-6">
             <label for="fname" class="text">First Name</label>
