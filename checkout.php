@@ -41,10 +41,10 @@
                 <input type="password" class="form-control background placeholdColor" placeholder="Password" id="pass"
                   required>
               </div>
-              <div class="row">
+              <div class="row justify-content-center">
                 <p class="font-weight-bold"><a href="#" style="color:grey">Forget Password</a></p>
               </div>
-              <div class="row">
+              <div class="row justify-content-center">
                 <button type="submit" class="btn btn-dangers font-weight-bold" style="width:200px">Login <i
                     class="fa fa-unlock-alt ml-1"></i> </button>
               </div>
