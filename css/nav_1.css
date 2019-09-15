@@ -171,22 +171,5 @@ transition: .3s ease-in-out;
 transform: scale(1.3);
 }
 
-/* css code for the nav bar for the mobile view */
-.sidenav {
-  left: 0;
-  background-color: #0db04b;
-  overflow-x: hidden;
-  transition: 0.5s;
-}
 
-.sidenav {
-  text-decoration: none;
-  color: white !important;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav .closebtn {
-  font-size: 30px;
-}
 

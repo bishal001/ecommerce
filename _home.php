@@ -1,5 +1,6 @@
 <div class="container shadow-lg bg-white">
-  <?php include'nav.php'?>   
+  <?php include'nav.php'?>
+  <?php include'nav-2.php'?>   
     <div class="text-center mb-3 sticky-top">
       <button class="btn btn-dangers" onclick="change()">Load images</button>
     </div>

@@ -56,42 +56,4 @@
       </div>
     </nav>
   </div>
-  <div class="d-block d-md-none">
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn float-right" onclick="closeNav()">&times;</a>
-      <ul class="navbar-nav ml-2">
-          <li class="nav-item">
-            <a href="_home.php" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link ">Vegetables</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Fruits</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Organic Products</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.php" class="nav-link">Contact</a>
-          </li>
-        </ul>
-    </div>
-
-    <div id="main">
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    </div>
-
-    <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
-  </div>
+  
