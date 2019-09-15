@@ -77,7 +77,10 @@
           <a href="contact.php" class="nav-link">Contact</a>
         </li>
       </ul>
-
+      <div class="row no-gutters ml-2">
+        <input type="text" placeholder="Search">
+        <button class="btn btn-dangers mt-2" style="color:white; width: 70px;" type="button">Search</button>
+      </div>
     </div>
 
     <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
