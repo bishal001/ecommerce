@@ -10,6 +10,21 @@
       <div class="shadow p-1 bg">
         <!-- creatin a register form and setting the action for the checkout page-->
         <form>
+          <div class="card mb-3">
+            <div class="card-header">
+              <h5>CREATE AN ACCOUNT OR LOGIN</h5>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                <input type="radio" name="register" value="reg" class="mr-2" checked>Register
+                </div>
+                <div class="col">
+                <input type="radio" name="register" value="return" class="mr-2">Returning Customer
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- creating the personial detail section -->
           <span class="badge">Your Personal Details</span>
           <hr>
