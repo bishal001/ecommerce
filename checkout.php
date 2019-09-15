@@ -32,13 +32,19 @@
               <h5>RETURNING CUSTOMER</h5>
             </div>
             <div class="card-body">
+              <div class="row mb-3">
+                <input type="email" class="form-control background placeholdColor" placeholder="E-mail" id="email"
+                required>
+              </div>
+              <div class="row mb-3">
+                <input type="password" class="form-control background placeholdColor" placeholder="Password" id="pass"
+                required>
+              </div>
               <div class="row">
-                <div class="col">
-                <input type="radio" name="register" value="reg" class="mr-2" checked>Register
-                </div>
-                <div class="col">
-                <input type="radio" name="register" value="return" class="mr-2">Returning Customer
-                </div>
+                <p class="font-weight-bold"><a href="#" style="color:grey">Forget Password</a></p>
+              </div>
+              <div class="row">
+                <button type="submit" class="btn btn-dangers font-weight-bold" style="width:200px">Login <i class="fa fa-unlock-alt ml-1"></i> </button>
               </div>
             </div>
           </div>
