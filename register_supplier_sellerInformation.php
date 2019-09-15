@@ -1,6 +1,7 @@
 
   <div class="container shadow-lg bg-white">
-    <?php include'nav.php'?>    
+    <?php include'nav.php'?>
+  <?php include'nav-2.php'?>       
     <h4 class="font-weight-bold text-center">Seller Registration</h4>
     <div class="d-flex flex-row justify-content-center">
       <p class="mr-1">Alredy have account</p>

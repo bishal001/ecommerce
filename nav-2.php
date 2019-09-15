@@ -45,7 +45,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="row">
         <div class="col-1">
-          <a href="cart.php"><i class="fa fa-shopping-cart fa-lg mt-1 ml-2" style="color:white"></i></a>
+          <a href="cart.php"><i class="fa fa-shopping-cart fa-lg ml-2 mt-1 mb-3" style="color:white"></i></a>
         </div>
         <div class="col-1">
           <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2 mt-1" style="color:white"></i></a>

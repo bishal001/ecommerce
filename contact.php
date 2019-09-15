@@ -1,5 +1,6 @@
 <div class="container shadow-lg bg-white">
   <?php include'nav.php'?>
+  <?php include'nav-2.php'?>   
   <div class="row shadow-sm justify-content-center mb-3" style="background-color: #1a8a64; color:white">
     <p class="mt-2 font-weight-bold">GOT A QUESTION OR INQUIRY?</p>
   </div>
