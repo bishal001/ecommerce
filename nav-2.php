@@ -27,7 +27,7 @@
 }
 
 .side-nav {
-  color: #0db04b
+  color: #0db04b;
 }
 </style>
 <!-- creating the side nav menu -->
