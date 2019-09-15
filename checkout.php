@@ -198,7 +198,7 @@
                           </div>
                           <div class="col">
                             <div class="row mb-2">
-                              <i class="fa fa-refresh ml-2"></i>
+                              <i class="fa fa-refresh ml-2 mt-2"></i>
                             </div>
                             <div class="row">
                               <i class="fa fa-trash-o ml-2"></i>
@@ -226,7 +226,7 @@
                           </div>
                           <div class="col">
                             <div class="row mb-2">
-                              <i class="fa fa-refresh ml-2"></i>
+                              <i class="fa fa-refresh ml-2 mt-2"></i>
                             </div>
                             <div class="row">
                               <i class="fa fa-trash-o ml-2"></i>
@@ -254,7 +254,7 @@
                           </div>
                           <div class="col">
                             <div class="row mb-2">
-                              <i class="fa fa-refresh ml-2"></i>
+                              <i class="fa fa-refresh ml-2 mt-2"></i>
                             </div>
                             <div class="row">
                               <i class="fa fa-trash-o ml-2"></i>
@@ -282,7 +282,7 @@
                           </div>
                           <div class="col">
                             <div class="row mb-2">
-                              <i class="fa fa-refresh ml-2"></i>
+                              <i class="fa fa-refresh ml-2 mt-2"></i>
                             </div>
                             <div class="row">
                               <i class="fa fa-trash-o ml-2"></i>
