@@ -1,9 +1,9 @@
 <?php include'header.php'?>
 
 <body>
-  <div class="d-none d-md-block">
+  <div class="d-none d-lg-block">
     <!--creating navigation bar-->
-    <nav class="navbar navbar-expand-xl navbar-dark sticky-top mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top mb-3">
 
       <!--creating toggler button in nav bar-->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#respid">

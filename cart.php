@@ -1,5 +1,6 @@
 <div class="container shadow-lg bg-white ">
   <?php include'nav.php'?>
+  <?php include'nav-2.php'?>   
   <div class="row">
     <div class="col text-center">
       <h3 class="font-weight-bold mb-3">CART</h3>

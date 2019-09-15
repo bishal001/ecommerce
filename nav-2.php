@@ -1,13 +1,11 @@
 <?php include'header.php'?>
 <style>
-
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
   background-color: #0db04b;
   overflow-x: hidden;
   transition: 0.5s;
@@ -15,7 +13,6 @@
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 18px;
   display: block;
@@ -36,14 +33,31 @@
     padding-top: 15px;
   }
 
- 
+
 }
 </style>
+<!-- creating the side nav menu -->
 
 <body style="color:#0db04b">
-  <div class="d-block d-md-none sticky-top">
-    <div id="mySidenav" class="sidenav ">
+  <div class="d-block d-lg-none sticky-top">
+    <div id="mySidenav" class="sidenav">
+      <!-- contains the cart, login and register section -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="row">
+        <div class="col-1">
+          <a href="cart.php"><i class="fa fa-shopping-cart fa-lg mt-1 ml-2" style="color:white"></i></a>
+        </div>
+        <div class="col-1">
+          <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2 mt-1" style="color:white"></i></a>
+        </div>
+        <div class="col-3">
+          <a class="ml-3 mr-3" href="login.php" style="color:white">Login</a>
+        </div>
+        <div class="col">
+          <a href="signup.php" style="color:white">Signup</a>
+        </div>
+      </div>
+      <!-- contains the body section of the nav bar for the small device -->
       <ul class="navbar-nav ml-2">
         <li class="nav-item">
           <a href="_home.php" class="nav-link active">Home</a>
@@ -64,6 +78,7 @@
           <a href="contact.php" class="nav-link">Contact</a>
         </li>
       </ul>
+
     </div>
 
     <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
