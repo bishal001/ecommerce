@@ -4,18 +4,16 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
   top: 0;
   background-color: #0db04b;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .sidenav a {
   text-decoration: none;
   font-size: 18px;
-  display: block;
   transition: 0.3s;
 }
 
@@ -28,26 +26,22 @@
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-
+.side-nav {
+  color: #0db04b
 }
 </style>
 <!-- creating the side nav menu -->
 
-<body style="color:#0db04b">
-  <div class="d-block d-lg-none sticky-top">
+<body class="">
+  <div class="d-block d-lg-none sticky-top side-nav">
     <div id="mySidenav" class="sidenav">
       <!-- contains the cart, login and register section -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="row">
-        <div class="col-1">
+        <div class="col-2">
           <a href="cart.php"><i class="fa fa-shopping-cart fa-lg ml-2 mt-1 mb-3" style="color:white"></i></a>
         </div>
-        <div class="col-1">
+        <div class="col-2">
           <a href="empty-cart.php"><i class="fa fa-cart-plus fa-lg ml-2 mt-1" style="color:white"></i></a>
         </div>
         <div class="col-3">
