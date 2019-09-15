@@ -10,7 +10,7 @@
       <div class="shadow p-1 bg">
         <!-- creatin a register form and setting the action for the checkout page-->
         <form>
-        <!-- create or login sectiono -->
+          <!-- create or login sectiono -->
           <div class="card mb-3">
             <div class="card-header">
               <h5>CREATE AN ACCOUNT OR LOGIN</h5>
@@ -18,10 +18,10 @@
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                <input type="radio" name="register" value="reg" class="mr-2" checked>Register
+                  <input type="radio" name="register" value="reg" class="mr-2" checked>Register
                 </div>
                 <div class="col">
-                <input type="radio" name="register" value="return" class="mr-2">Returning Customer
+                  <input type="radio" name="register" value="return" class="mr-2">Returning Customer
                 </div>
               </div>
             </div>
@@ -34,17 +34,18 @@
             <div class="card-body">
               <div class="row mb-3">
                 <input type="email" class="form-control background placeholdColor" placeholder="E-mail" id="email"
-                required>
+                  required>
               </div>
               <div class="row mb-3">
                 <input type="password" class="form-control background placeholdColor" placeholder="Password" id="pass"
-                required>
+                  required>
               </div>
               <div class="row">
                 <p class="font-weight-bold"><a href="#" style="color:grey">Forget Password</a></p>
               </div>
               <div class="row">
-                <button type="submit" class="btn btn-dangers font-weight-bold" style="width:200px">Login <i class="fa fa-unlock-alt ml-1"></i> </button>
+                <button type="submit" class="btn btn-dangers font-weight-bold" style="width:200px">Login <i
+                    class="fa fa-unlock-alt ml-1"></i> </button>
               </div>
             </div>
           </div>
@@ -190,9 +191,20 @@
                         <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                       </div>
                       <div class="col-xl-3 col-lg-3 col-md-2 col-2">
-                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
-                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                        <div class="row">
+                          <div class="col my-auto">
+                            <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                          </div>
+                          <div class="col">
+                            <div class="row mb-2">
+                              <i class="fa fa-refresh ml-2"></i>
+                            </div>
+                            <div class="row">
+                              <i class="fa fa-trash-o ml-2"></i>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-xl-2 col-lg-2 col-md-2 col-2">
                         <p class="font-weight-bold">Price: $10</p>
@@ -207,9 +219,20 @@
                         <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                       </div>
                       <div class="col-xl-3 col-lg-3 col-md-2 col-2">
-                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
-                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                        <div class="row">
+                          <div class="col my-auto">
+                            <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                          </div>
+                          <div class="col">
+                            <div class="row mb-2">
+                              <i class="fa fa-refresh ml-2"></i>
+                            </div>
+                            <div class="row">
+                              <i class="fa fa-trash-o ml-2"></i>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-xl-2 col-lg-2 col-md-2 col-2">
                         <p class="font-weight-bold">Price: $10</p>
@@ -224,9 +247,20 @@
                         <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                       </div>
                       <div class="col-xl-3 col-lg-3 col-md-2 col-2">
-                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
-                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                        <div class="row">
+                          <div class="col my-auto">
+                            <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                          </div>
+                          <div class="col">
+                            <div class="row mb-2">
+                              <i class="fa fa-refresh ml-2"></i>
+                            </div>
+                            <div class="row">
+                              <i class="fa fa-trash-o ml-2"></i>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-xl-2 col-lg-2 col-md-2 col-2">
                         <p class="font-weight-bold">Price: $10</p>
@@ -241,9 +275,20 @@
                         <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
                       </div>
                       <div class="col-xl-3 col-lg-3 col-md-2 col-2">
-                        <input type="text" size="1" id="quantity" class="calculator-input background mb-3" value="2"
-                          onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-                        <i class="fa fa-refresh fa-lg ml-2"></i>
+                        <div class="row">
+                          <div class="col my-auto">
+                            <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                              onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                          </div>
+                          <div class="col">
+                            <div class="row mb-2">
+                              <i class="fa fa-refresh ml-2"></i>
+                            </div>
+                            <div class="row">
+                              <i class="fa fa-trash-o ml-2"></i>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-xl-2 col-lg-2 col-md-2 col-2">
                         <p class="font-weight-bold">Price: $10</p>
@@ -251,23 +296,23 @@
                     </div>
 
                     <hr>
-                      <div class="row">
-                        <div class="col">
-                          <p class="font-weight-bold">Sub Total:</p>
-                        </div>
-                        <div class="col">
-                          <p class="font-weight-bold float-right">$10</p>
-                        </div>
+                    <div class="row">
+                      <div class="col">
+                        <p class="font-weight-bold">Sub Total:</p>
                       </div>
+                      <div class="col">
+                        <p class="font-weight-bold float-right">$10</p>
+                      </div>
+                    </div>
 
-                      <div class="row">
-                        <div class="col">
-                          <p class="font-weight-bold">Grand Total:</p>
-                        </div>
-                        <div class="col">
-                          <p class="font-weight-bold float-right">$10</p>
-                        </div>
+                    <div class="row">
+                      <div class="col">
+                        <p class="font-weight-bold">Grand Total:</p>
                       </div>
+                      <div class="col">
+                        <p class="font-weight-bold float-right">$10</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
