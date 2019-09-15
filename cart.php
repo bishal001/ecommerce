@@ -19,9 +19,9 @@
             </div>
             <div class="col-xl-2 col-lg-3 col-md-2">
               <div class="row">
-                <div class="col">
+                <div class="col my-auto">
                   <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                  onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                 </div>
                 <div class="col">
                   <div class="row mb-2">
@@ -46,9 +46,20 @@
               <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-2">
-              <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-              <i class="fa fa-refresh fa-lg ml-2"></i>
+              <div class="row">
+                <div class="col my-auto">
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                </div>
+                <div class="col">
+                  <div class="row mb-2">
+                    <i class="fa fa-refresh ml-2"></i>
+                  </div>
+                  <div class="row">
+                    <i class="fa fa-trash-o ml-2"></i>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2">
               <p class="font-weight-bold">Price: $10</p>
@@ -63,9 +74,20 @@
               <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-2">
-              <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-              <i class="fa fa-refresh fa-lg ml-2"></i>
+              <div class="row">
+                <div class="col my-auto">
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                </div>
+                <div class="col">
+                  <div class="row mb-2">
+                    <i class="fa fa-refresh ml-2"></i>
+                  </div>
+                  <div class="row">
+                    <i class="fa fa-trash-o ml-2"></i>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2">
               <p class="font-weight-bold">Price: $10</p>
@@ -80,9 +102,20 @@
               <p class="font-weight-bold">Aalu (Potato) 500 Gram (Vegetable-Local)</p>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-2">
-              <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
-                onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-              <i class="fa fa-refresh fa-lg ml-2"></i>
+              <div class="row">
+                <div class="col my-auto">
+                  <input type="text" size="1" id="quantity" class="calculator-input background" value="2"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                </div>
+                <div class="col">
+                  <div class="row mb-2">
+                    <i class="fa fa-refresh ml-2"></i>
+                  </div>
+                  <div class="row">
+                    <i class="fa fa-trash-o ml-2"></i>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2">
               <p class="font-weight-bold">Price: $10</p>
