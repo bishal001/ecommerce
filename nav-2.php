@@ -1,5 +1,7 @@
 <?php include'header.php'?>
+<!-- css code for the side nav bar -->
 <style>
+  /* body part of the side nav bar */
 .sidenav {
   height: 100%;
   width: 0;
@@ -9,15 +11,18 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 70px;
+  margin-left: -15px;
+	margin-right: -15px;
 }
 
+/* css code for the links */
 .sidenav a {
   text-decoration: none;
   font-size: 18px;
   transition: 0.3s;
 }
 
-
+/* css for the close button of the nav bar */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
