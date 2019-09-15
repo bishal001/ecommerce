@@ -138,12 +138,16 @@
 		<!--creating the card to keep privacy policy part-->
 
 		<div class="row justify-content-center" style="background-color:#98ffbf">
-			<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-12 pt-1 text-center">
-				<p class="font-weight-bold fa fa-copyright ">Copyright 2019</p>
+			<div class="col-xl-3 col-lg-2 col-md-3 col-sm-4 col-12 pt-1 text-center">
+				<p class="font-weight-bold fa fa-copyright">Copyright 2019</p>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 pt-1 text-center">
-				<a href="#" class="inline" style="color:black;"><p>Terms</p></a>
+			<div class="col-xl-1 col-lg-3 col-md-3 col-sm-4 col-2 text-center">
+				<div class="d-flex flex-row justify-content-center">
 				<a href="#" style="color:black;"><p>Terms</p></a>
+				<a href="#" class="ml-2 mr-2" style="color:black;"><p>Terms</p></a>
+				<a href="#" style="color:black;"><p>Terms</p></a>
+				<a href="#" class="ml-2" style="color:black;"><p>Terms</p></a>
+				</div>
 			</div>
 		
 		</div>
