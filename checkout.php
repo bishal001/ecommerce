@@ -19,10 +19,10 @@
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                  <input type="radio" name="register" value="reg" class="mr-2" checked>Register
+                  <input type="radio" name="register" value="" class="mr-2" checked>Register
                 </div>
                 <div class="col">
-                  <input type="radio" name="register" value="return" class="mr-2">Returning Customer
+                  <input type="radio" name="register" value="" class="mr-2">Returning Customer
                 </div>
               </div>
             </div>
