@@ -216,7 +216,7 @@
       <div class="shadow">
         <div class="row justify-content-center">
           <div class="img">
-            <img src="http://placehold.it/220x200" id="img-10" clas="img-fluid " alt="img">
+            <img src="http://placehold.it/220x200" id="img-10" class="img-fluid " alt="img">
             <!--adding icons when hovered-->
             <div class="overlay">
               <button class="btn btn-outline-secondary my-2 mx-2" type="button">
